@@ -451,7 +451,7 @@ footer{border-top:1px solid var(--line);padding-top:24px;margin-top:56px;font-si
 
   <h3>2.1 大区位：去程走京承，回程绕红螺寺 · 阳坊</h3>
   <div class="mapfig">
-    <svg viewBox="0 0 920 430" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="两天往返环线示意图">
+    <svg viewBox="0 0 920 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="两天往返环线示意图">
       <defs>
         <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
           <path d="M0,0 L10,5 L0,10 z" fill="#1f6f6a"/>
@@ -460,52 +460,54 @@ footer{border-top:1px solid var(--line);padding-top:24px;margin-top:56px;font-si
           <path d="M0,0 L10,5 L0,10 z" fill="#b58a3c"/>
         </marker>
       </defs>
-      <rect x="0" y="0" width="920" height="430" fill="#fcfcfa"/>
+      <rect x="0" y="0" width="920" height="460" fill="#fcfcfa"/>
       <text x="24" y="34" font-size="12.5" fill="#868f8e">示意图 · 非精确比例</text>
       <text x="896" y="34" font-size="12.5" text-anchor="end" fill="#1f6f6a" font-weight="700">两天是一个环，不走回头路</text>
 
-      <!-- 市区 -->
-      <circle cx="150" cy="392" r="10" fill="#868f8e"/>
-      <text x="150" y="372" font-size="15" font-weight="700" text-anchor="middle" fill="#232828">北京市区</text>
+      <!-- 去程：虚线 -->
+      <path d="M406,398 C424,372 434,346 444,336" fill="none" stroke="#1f6f6a" stroke-width="3" stroke-dasharray="8 5" marker-end="url(#ar)"/>
+      <path d="M456,324 C480,306 522,286 540,278" fill="none" stroke="#1f6f6a" stroke-width="2.4" marker-end="url(#ar)"/>
+      <path d="M556,266 C596,238 646,204 700,182" fill="none" stroke="#b58a3c" stroke-width="2.6" marker-end="url(#ar2)"/>
+      <text x="60" y="446" font-size="12.5" font-weight="600" fill="#1f6f6a">去程 · 京承高速 · 约 1.5h · ETC ¥19（虚线）</text>
 
-      <!-- 去程：京承高速 -->
-      <path d="M164,384 C240,340 320,290 420,252" fill="none" stroke="#1f6f6a" stroke-width="3" stroke-dasharray="8 5" marker-end="url(#ar)"/>
-      <text x="252" y="334" font-size="12.5" font-weight="600" fill="#1f6f6a">去程 · 京承高速 · 约 1.5h · ETC ¥19</text>
+      <!-- 14 号出口 -->
+      <circle cx="448" cy="330" r="8" fill="#5a7d2e"/>
+      <text x="464" y="336" font-size="12.5" font-weight="700" fill="#4a6b22">14 号出口（怀柔）</text>
 
-      <circle cx="432" cy="246" r="8" fill="#5a7d2e"/>
-      <text x="432" y="226" font-size="12.5" font-weight="700" text-anchor="middle" fill="#4a6b22">14 号出口（怀柔）</text>
+      <!-- 雁栖湖环岛 -->
+      <circle cx="548" cy="272" r="8" fill="#b58a3c"/>
+      <text x="564" y="268" font-size="12.5" font-weight="700" fill="#8a6520">雁栖湖环岛</text>
 
-      <circle cx="536" cy="198" r="8" fill="#b58a3c"/>
-      <text x="536" y="178" font-size="12.5" font-weight="700" text-anchor="middle" fill="#8a6520">雁栖湖环岛</text>
-      <path d="M440,242 C470,228 506,212 528,200" fill="none" stroke="#1f6f6a" stroke-width="2.4" marker-end="url(#ar)"/>
-
-      <path d="M544,194 C600,168 660,144 712,130" fill="none" stroke="#b58a3c" stroke-width="2.6" marker-end="url(#ar2)"/>
-      <text x="628" y="164" font-size="12" font-weight="600" fill="#8a6520">范崎路（进山段窄）</text>
+      <text x="600" y="226" font-size="12" font-weight="600" text-anchor="middle" fill="#8a6520">范崎路 · 进山段窄</text>
 
       <!-- 不夜谷：D1 全天 -->
-      <ellipse cx="780" cy="112" rx="124" ry="76" fill="#e3f1f0" stroke="#1f6f6a" stroke-width="2"/>
-      <text x="780" y="74" font-size="15.5" font-weight="700" text-anchor="middle" fill="#14514e">雁栖「不夜谷」</text>
-      <circle cx="726" cy="112" r="9" fill="#1f6f6a"/>
-      <text x="726" y="138" font-size="12" font-weight="700" text-anchor="middle" fill="#14514e">神堂峪栈道起点</text>
-      <circle cx="838" cy="128" r="9" fill="#b58a3c"/>
-      <text x="838" y="154" font-size="12" font-weight="700" text-anchor="middle" fill="#8a6520">山吧（住 1 晚）</text>
-      <text x="780" y="180" font-size="11.5" text-anchor="middle" fill="#55605f">D1 全天都在这一片</text>
+      <ellipse cx="780" cy="132" rx="124" ry="76" fill="#e3f1f0" stroke="#1f6f6a" stroke-width="2"/>
+      <text x="780" y="94" font-size="15.5" font-weight="700" text-anchor="middle" fill="#14514e">雁栖「不夜谷」</text>
+      <circle cx="726" cy="142" r="9" fill="#1f6f6a"/>
+      <text x="726" y="166" font-size="12" font-weight="700" text-anchor="middle" fill="#14514e">神堂峪栈道起点</text>
+      <circle cx="846" cy="152" r="9" fill="#b58a3c"/>
+      <text x="846" y="176" font-size="12" font-weight="700" text-anchor="middle" fill="#8a6520">山吧（住 1 晚）</text>
+      <text x="780" y="200" font-size="11.5" text-anchor="middle" fill="#55605f">D1 全天都在这一片</text>
 
-      <!-- 回程：红螺寺 → 阳坊 → 市区 -->
-      <path d="M700,166 C646,212 602,236 566,250" fill="none" stroke="#1f6f6a" stroke-width="2.8" marker-end="url(#ar)"/>
-      <circle cx="548" cy="258" r="10" fill="#a8342a"/>
-      <text x="548" y="288" font-size="12.5" font-weight="700" text-anchor="middle" fill="#a8342a">红螺寺</text>
-      <text x="548" y="306" font-size="11" text-anchor="middle" fill="#5d574e">D2 09:35 · 走马观花</text>
+      <!-- 回程：实线 -->
+      <path d="M704,206 C660,250 610,306 578,332" fill="none" stroke="#1f6f6a" stroke-width="2.8" marker-end="url(#ar)"/>
+      <circle cx="566" cy="344" r="10" fill="#a8342a"/>
+      <text x="566" y="372" font-size="12.5" font-weight="700" text-anchor="middle" fill="#a8342a">红螺寺</text>
+      <text x="566" y="390" font-size="11" text-anchor="middle" fill="#5d574e">D2 09:35 · 走马观花</text>
 
-      <path d="M530,262 C462,268 380,268 322,262" fill="none" stroke="#1f6f6a" stroke-width="2.8" marker-end="url(#ar)"/>
-      <text x="424" y="288" font-size="11.5" text-anchor="middle" fill="#55605f">横穿昌平 · 约 60–70 km（估算）</text>
+      <path d="M552,346 C470,338 356,326 246,318" fill="none" stroke="#1f6f6a" stroke-width="2.8" marker-end="url(#ar)"/>
+      <text x="400" y="312" font-size="11.5" text-anchor="middle" fill="#55605f">横穿昌平 · 约 60–70 km（估算）</text>
 
-      <circle cx="294" cy="258" r="10" fill="#b58a3c"/>
-      <text x="294" y="288" font-size="12.5" font-weight="700" text-anchor="middle" fill="#8a6520">阳坊胜利涮羊肉</text>
-      <text x="294" y="306" font-size="11" text-anchor="middle" fill="#5d574e">D2 12:30 · 昌平阳坊镇</text>
+      <circle cx="230" cy="318" r="10" fill="#b58a3c"/>
+      <text x="230" y="278" font-size="12.5" font-weight="700" text-anchor="middle" fill="#8a6520">阳坊胜利涮羊肉</text>
+      <text x="230" y="296" font-size="11" text-anchor="middle" fill="#5d574e">D2 12:30 · 昌平阳坊镇</text>
 
-      <path d="M284,266 C244,300 194,346 166,380" fill="none" stroke="#1f6f6a" stroke-width="2.8" marker-end="url(#ar)"/>
-      <text x="180" y="330" font-size="11.5" font-weight="600" fill="#a8342a">14:30 前走</text>
+      <path d="M242,326 C280,352 348,384 392,400" fill="none" stroke="#1f6f6a" stroke-width="2.8" marker-end="url(#ar)"/>
+      <text x="298" y="392" font-size="11.5" font-weight="600" text-anchor="middle" fill="#a8342a">14:30 前走</text>
+
+      <!-- 市区 -->
+      <circle cx="400" cy="408" r="10" fill="#868f8e"/>
+      <text x="400" y="388" font-size="15" font-weight="700" text-anchor="middle" fill="#232828">北京市区</text>
     </svg>
     <p class="cap">去程 <b>京承高速</b> 直奔不夜谷；回程 <b>红螺寺 → 阳坊（昌平）→ 回家</b>，<b>不走京承</b>。</p>
   </div>
