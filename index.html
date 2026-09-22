@@ -4,26 +4,26 @@
 <meta charset="UTF-8">
 <meta name="robots" content="noindex,nofollow,noarchive">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>中秋密云 · 日光山谷 3 天 2 晚 · 带娃自驾</title>
+<title>怀柔「山吧」· 2 天 1 晚 · 带娃自驾</title>
 <style>
 :root{
-  --bg:#f4f2ed;
+  --bg:#f3f4ef;
   --card:#ffffff;
-  --ink:#232829;
-  --ink-2:#55605f;
+  --ink:#232828;
+  --ink-2:#556060;
   --ink-3:#868f8e;
-  --line:#dde2df;
-  --blue:#17647a;
-  --blue-2:#0f4d60;
-  --blue-soft:#e3f0f4;
+  --line:#dde2dd;
+  --blue:#1f6f6a;
+  --blue-2:#14514e;
+  --blue-soft:#e3f1f0;
   --red:#a8342a;
   --red-soft:#fbeceb;
   --gold:#b58a3c;
   --gold-soft:#faf3e3;
-  --green:#3f7a54;
-  --green-soft:#eaf4ec;
+  --green:#5a7d2e;
+  --green-soft:#eef3e4;
   --radius:14px;
-  --shadow:0 1px 2px rgba(35,40,41,.05),0 6px 24px rgba(35,40,41,.06);
+  --shadow:0 1px 2px rgba(35,40,40,.05),0 6px 24px rgba(35,40,40,.06);
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
@@ -68,7 +68,7 @@ main.wrap{flex:1 1 auto;min-width:0;max-width:none;margin:0;padding:0}
 #toTop{
   position:fixed;right:26px;bottom:26px;z-index:70;width:48px;height:48px;border-radius:50%;
   background:var(--blue);color:#fff;border:none;cursor:pointer;display:grid;place-items:center;
-  box-shadow:0 4px 16px rgba(23,100,122,.34);opacity:0;pointer-events:none;transition:.2s;
+  box-shadow:0 4px 16px rgba(31,111,106,.34);opacity:0;pointer-events:none;transition:.2s;
 }
 #toTop.show{opacity:1;pointer-events:auto}
 #toTop:hover{background:var(--blue-2);transform:translateY(-2px)}
@@ -78,20 +78,20 @@ main.wrap{flex:1 1 auto;min-width:0;max-width:none;margin:0;padding:0}
 .ovw{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
      box-shadow:var(--shadow);overflow:hidden;margin-bottom:16px}
 .ovw table{font-size:13.5px}
-.ovw th{background:#eef0ec;color:#55605f;white-space:nowrap;padding:10px 11px;border-bottom:1px solid var(--line)}
+.ovw th{background:#eaece6;color:#55605f;white-space:nowrap;padding:10px 11px;border-bottom:1px solid var(--line)}
 .ovw td{padding:12px 11px;vertical-align:top;line-height:1.62}
 .ovw td:first-child{white-space:nowrap;font-weight:700;color:var(--blue)}
 .ovw td:nth-child(2){white-space:nowrap;font-weight:600}
 .ovw .ovw-wx{font-variant-numeric:tabular-nums;white-space:nowrap}
 .ovw .ovw-tr{white-space:nowrap;font-weight:600}
 .ovw .ovw-htl{font-size:12.5px;color:var(--ink-2)}
-.ovw tr:hover{background:#fcfcfb}
+.ovw tr:hover{background:#fcfcfa}
 .ovw tr.hi{background:var(--gold-soft)}
 .ovw tr.hi:hover{background:var(--gold-soft)}
 
 /* ---------- header ---------- */
 header{
-  background:linear-gradient(160deg,#17647a 0%,#104c5f 55%,#0b3a49 100%);
+  background:linear-gradient(160deg,#1f6f6a 0%,#155550 55%,#0f3f3c 100%);
   color:#fff;padding:52px 20px 44px;margin-bottom:28px;
 }
 header .wrap{padding-bottom:0}
@@ -125,30 +125,14 @@ h3{font-size:17px;margin:28px 0 12px;font-weight:650}
 /* ---------- tables ---------- */
 table{width:100%;border-collapse:collapse;font-size:14.5px}
 th,td{text-align:left;padding:11px 12px;border-bottom:1px solid var(--line);vertical-align:top}
-th{font-size:12.5px;letter-spacing:.05em;color:var(--ink-3);font-weight:600;text-transform:uppercase;background:#fafaf8}
+th{font-size:12.5px;letter-spacing:.05em;color:var(--ink-3);font-weight:600;text-transform:uppercase;background:#fafbf8}
 tr:last-child td{border-bottom:none}
-tbody tr:hover{background:#fcfcfb}
+tbody tr:hover{background:#fcfcfa}
 td.num,th.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
 .tbl-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
 .mono{font-variant-numeric:tabular-nums;white-space:nowrap;font-weight:600;color:var(--blue)}
 tr.total td{font-weight:700;background:var(--gold-soft);border-top:2px solid var(--gold)}
 tr.total:hover{background:var(--gold-soft)}
-
-/* ---------- itinerary day ---------- */
-.day{border-left:3px solid var(--line);padding-left:0;margin-bottom:8px}
-.day-head{
-  display:flex;align-items:center;gap:12px;margin:26px 0 4px;
-  padding-left:16px;position:relative;
-}
-.day-head::before{
-  content:"";position:absolute;left:-8px;width:13px;height:13px;border-radius:50%;
-  background:var(--blue);border:3px solid var(--bg);
-}
-.day-head .d{font-size:19px;font-weight:700}
-.day-head .t{font-size:13px;color:#fff;background:var(--ink-2);border-radius:5px;padding:3px 10px}
-.day-head .t.b{background:var(--blue)}
-.day-head .t.r{background:var(--red)}
-.day-head .t.g{background:var(--green)}
 
 /* ---------- weather ---------- */
 .wx{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px}
@@ -210,7 +194,7 @@ footer{border-top:1px solid var(--line);padding-top:24px;margin-top:56px;font-si
   #sideNav{
     position:sticky;top:0;flex:none;width:auto;max-height:none;
     border-radius:0;border:none;border-bottom:1px solid var(--line);
-    box-shadow:none;background:rgba(244,242,237,.96);backdrop-filter:blur(10px);
+    box-shadow:none;background:rgba(243,244,239,.96);backdrop-filter:blur(10px);
     padding:0;margin-bottom:26px;display:flex;overflow-x:auto;scrollbar-width:none;
   }
   #sideNav::-webkit-scrollbar{display:none}
@@ -228,46 +212,44 @@ footer{border-top:1px solid var(--line);padding-top:24px;margin-top:56px;font-si
   .shell{display:block;max-width:none;padding:0}
   main.wrap{max-width:none;margin:0;padding:0}
   body{background:#fff}
-  header{background:#104c5f !important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  header{background:#155550 !important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
   .card,.wx-day,.mapfig,.link{box-shadow:none;break-inside:avoid}
   section{break-inside:avoid}
 }
+
 /* ---------- 手机端：宽表格改为堆叠卡片，不横向滚动 ---------- */
 @media(max-width:720px){
   .ovw table,.ovw tbody,.ovw tr,.ovw td,
   #stay table,#stay tbody,#stay tr,#stay th,#stay td,
   #day1 table,#day1 tbody,#day1 tr,#day1 th,#day1 td,
   #day2 table,#day2 tbody,#day2 tr,#day2 th,#day2 td,
-  #day3 table,#day3 tbody,#day3 tr,#day3 th,#day3 td,
   #water table,#water tbody,#water tr,#water th,#water td,
   #money table,#money tbody,#money tr,#money th,#money td,
   #check table,#check tbody,#check tr,#check th,#check td{display:block;width:100%}
 
-  .ovw thead,#stay thead,#day1 thead,#day2 thead,#day3 thead,
-  #water thead,#money thead,#check thead{display:none}
+  .ovw thead,#stay thead,#day1 thead,#day2 thead,#water thead,#money thead,#check thead{display:none}
 
-  .ovw tr,#stay tr,#day1 tr,#day2 tr,#day3 tr,#water tr,#money tr,#check tr{
+  .ovw tr,#stay tr,#day1 tr,#day2 tr,#water tr,#money tr,#check tr{
     border-bottom:1px solid var(--line);padding:12px 0}
   .ovw tr:last-child,#stay tr:last-child,#day1 tr:last-child,#day2 tr:last-child,
-  #day3 tr:last-child,#water tr:last-child,#money tr:last-child,#check tr:last-child{border-bottom:none}
-  .ovw tr:hover,#stay tr:hover,#day1 tr:hover,#day2 tr:hover,#day3 tr:hover,
-  #water tr:hover,#money tr:hover,#check tr:hover{background:none}
+  #water tr:last-child,#money tr:last-child,#check tr:last-child{border-bottom:none}
+  .ovw tr:hover,#stay tr:hover,#day1 tr:hover,#day2 tr:hover,#water tr:hover,
+  #money tr:hover,#check tr:hover{background:none}
 
   .ovw td,.ovw th,#stay td,#stay th,#day1 td,#day1 th,#day2 td,#day2 th,
-  #day3 td,#day3 th,#water td,#water th,#money td,#money th,#check td,#check th{
+  #water td,#water th,#money td,#money th,#check td,#check th{
     display:block;border:none;padding:4px 14px;white-space:normal;text-align:left}
   #money td.num{text-align:left}
 
   .ovw td:first-child{font-size:17px;color:var(--blue);font-weight:700}
   .ovw td:nth-child(2),#money td:first-child,#water td:first-child,
-  #check td:first-child,#stay th,#day1 td:first-child,#day2 td:first-child,
-  #day3 td:first-child{font-weight:700;color:var(--ink)}
+  #check td:first-child,#stay th,#day1 td:first-child,#day2 td:first-child{
+    font-weight:700;color:var(--ink)}
 
   .ovw td:nth-child(3)::before,.ovw td:nth-child(4)::before,.ovw td:nth-child(5)::before,
   .ovw td:nth-child(6)::before,#water td:nth-child(2)::before,#water td:nth-child(3)::before,
   #water td:nth-child(4)::before,#money td:nth-child(2)::before,#money td:nth-child(3)::before,
-  #day1 td:nth-child(2)::before,#day2 td:nth-child(2)::before,#day3 td:nth-child(2)::before,
-  #check td:nth-child(2)::before{
+  #day1 td:nth-child(2)::before,#day2 td:nth-child(2)::before,#check td:nth-child(2)::before{
     display:block;font-size:10.5px;letter-spacing:.12em;color:var(--ink-3);
     font-weight:600;margin-bottom:1px}
   .ovw td:nth-child(3)::before{content:"天气"}
@@ -275,12 +257,11 @@ footer{border-top:1px solid var(--line);padding-top:24px;margin-top:56px;font-si
   .ovw td:nth-child(5)::before{content:"住宿"}
   .ovw td:nth-child(6)::before{content:"行程"}
   #water td:nth-child(2)::before{content:"位置"}
-  #water td:nth-child(3)::before{content:"带娃友好"}
-  #water td:nth-child(4)::before{content:"本次怎么用"}
+  #water td:nth-child(3)::before{content:"带娃"}
+  #water td:nth-child(4)::before{content:"怎么用"}
   #money td:nth-child(2)::before{content:"算法"}
   #money td:nth-child(3)::before{content:"金额"}
-  #day1 td:nth-child(2)::before,#day2 td:nth-child(2)::before,
-  #day3 td:nth-child(2)::before{content:"在哪"}
+  #day1 td:nth-child(2)::before,#day2 td:nth-child(2)::before{content:"在哪"}
   #check td:nth-child(2)::before{content:"电话"}
 
   .tbl-wrap{overflow-x:visible}
@@ -300,40 +281,41 @@ footer{border-top:1px solid var(--line);padding-top:24px;margin-top:56px;font-si
 
 <header>
   <div class="wrap">
-    <p class="eyebrow">Mid-Autumn · Miyun Reservoir</p>
-    <h1>中秋密云 · 日光山谷 3 天 2 晚
-      <small>带娃自驾 · 9/25（周五）–9/27（周日）· 住日光山谷园区内连住 2 晚<br>看密云水库这件事，在园区内的 180° 平台就完成了</small>
+    <p class="eyebrow">Huairou · Shanba · Shengtangyu</p>
+    <h1>怀柔「山吧」· 2 天 1 晚
+      <small>带娃自驾 · <b>9/25（周五）入住 → 9/26（周六）退房</b> · 山吧 · 阁楼房（已订）<br>和神堂峪栈道在同一个「雁栖不夜谷」里 —— 门对门</small>
     </h1>
     <div class="facts">
-      <span class="fact hot">9/25 是<b>唯一好天</b></span>
-      <span class="fact">9/26 起有雨</span>
-      <span class="fact">车程 <b>72 km</b></span>
-      <span class="fact">园区内住 <b>2 晚</b>不换店</span>
-      <span class="fact">预算约 <b>¥1,600</b>–<b>¥2,800</b></span>
+      <span class="fact hot">✅ 已订：山吧 · 阁楼房</span>
+      <span class="fact">9/25 多云 <b>17/26℃</b></span>
+      <span class="fact">车程约 <b>1.5h</b></span>
+      <span class="fact">单程 ETC 约 <b>¥19</b></span>
+      <span class="fact">预算约 <b>¥900</b>–<b>¥2,000</b></span>
     </div>
   </div>
 </header>
 
-<!-- ============ 顶端操作区：今天必须做的两件事 ============ -->
+<!-- ============ 顶端操作区 ============ -->
 <div style="max-width:1320px;margin:-14px auto 26px;padding:0 32px;
             display:flex;gap:14px;flex-wrap:wrap;align-items:stretch">
 
-  <div style="flex:1 1 340px;min-width:0;background:var(--card);border:1.5px solid var(--red);
-              border-left:5px solid var(--red);border-radius:var(--radius);
+  <div style="flex:1 1 340px;min-width:0;background:var(--card);border:1.5px solid var(--blue);
+              border-left:5px solid var(--blue);border-radius:var(--radius);
               padding:16px 22px;box-shadow:var(--shadow)">
     <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:10px">
       <span style="font-size:22px;line-height:1">📞</span>
-      <b style="font-size:16px">今天就要打的电话</b>
-      <span class="pill r" style="margin-left:auto">只剩 3 天</span>
+      <b style="font-size:16px">还差一个电话，四件事</b>
+      <span class="pill b" style="margin-left:auto">山吧 · 已订</span>
     </div>
     <div style="font-size:14px;line-height:2">
-      <div>日光山谷 <span class="tel">4006-778-668</span> / <span class="tel">400-6118010</span></div>
-      <div>→ 问：门票到底多少 · 还有房吗 · 房费含不含早晚餐和门票 · 娃怎么免票</div>
-      <div>渔街 金鼎鱼香 <span class="tel">010-69017633</span> → 订<b>周五</b>午餐位（<b>已从周六改到 D1</b>）</div>
-      <div>尖岩栈道 → 是否收费 · 入口导航点 · <b>雨天是否封闭</b></div>
+      <div><span class="tel">(010) 61627396</span> 或微信搜公众号「<b>山吧</b>」</div>
+      <div>① <b>入住 / 退房的具体时刻</b>（决定上午怎么排、次日几点走）</div>
+      <div>② <b>含不含早餐</b>、几点开</div>
+      <div>③ <b>阁楼房能不能遮光、能不能加床</b>（带娃关键）</div>
+      <div>④ 园区<b>溪水深浅</b>、娃能不能下水、有无救生衣</div>
     </div>
     <div style="font-size:12.5px;color:var(--ink-3);margin-top:9px;padding-top:9px;border-top:1px dashed var(--line)">
-      门票网上有三个互相打架的数字（30 / 40–60 / 88 元），号码来源也有两说 —— <b>以官方公众号为准，别按本页数字直接出发。</b>
+      ⚠️ <b>确认订的是本店</b>：怀柔区雁栖镇<b>长园村 318 号</b>（不夜谷）。山吧还有<b>分店在桥梓镇</b>，别搞混。
     </div>
   </div>
 
@@ -345,13 +327,13 @@ footer{border-top:1px solid var(--line);padding-top:24px;margin-top:56px;font-si
       <b style="font-size:16px">三个不能挪的硬时刻</b>
     </div>
     <div style="font-size:14px;line-height:2">
-      <div><b>出城 06:30 前上车</b> —— 出城高峰 07:00–12:00</div>
-      <div><b>尖岩栈道 09:00 开走</b> —— D1 唯一的步道项，堵车会直接吃掉它</div>
-      <div><b>返程 10:00–11:00 上高速</b> —— 返城高峰 13:00–20:00</div>
-      <div>园区规则：入住 <b>14:00 后</b> · 退房 <b>12:00 前</b> · 晚餐 <b>17:00–20:00</b></div>
+      <div><b>06:30 前出门</b> —— 出城高峰 07:00–12:00</div>
+      <div><b>09:00 到栈道</b> —— 周末早 9 点前，停车不愁</div>
+      <div><b>次日 13:00 前上高速</b> —— 避开午后返城高峰</div>
+      <div>路线：京承高速 <b>14 号出口（怀柔）</b> → 雁栖湖环岛 → <b>范崎路</b></div>
     </div>
     <div style="font-size:12.5px;color:var(--ink-3);margin-top:9px;padding-top:9px;border-top:1px dashed var(--line)">
-      中秋高速<b>不免费</b>（国庆才免费）；单程过路费约 55 元。
+      进山段范崎路<b>依旧狭窄</b>，雨天慢开。
     </div>
   </div>
 </div>
@@ -365,13 +347,12 @@ footer{border-top:1px solid var(--line);padding-top:24px;margin-top:56px;font-si
   <a href="#stay"><span class="i">03</span>住宿</a>
   <a href="#day1"><span class="i">04</span>周五</a>
   <a href="#day2"><span class="i">05</span>周六</a>
-  <a href="#day3"><span class="i">06</span>周日</a>
-  <a href="#water"><span class="i">07</span>看水库</a>
-  <a href="#money"><span class="i">08</span>预算</a>
-  <a href="#check"><span class="i">09</span>待核实</a>
-  <a href="#risk"><span class="i">10</span>风险</a>
-  <a href="#pack"><span class="i">11</span>带什么</a>
-  <a href="#links"><span class="i">12</span>快捷入口</a>
+  <a href="#water"><span class="i">06</span>栈道玩水</a>
+  <a href="#money"><span class="i">07</span>预算</a>
+  <a href="#check"><span class="i">08</span>待核实</a>
+  <a href="#risk"><span class="i">09</span>风险</a>
+  <a href="#pack"><span class="i">10</span>带什么</a>
+  <a href="#links"><span class="i">11</span>快捷入口</a>
 </nav>
 
 <button id="toTop" aria-label="回到顶部" title="回到顶部">
@@ -383,7 +364,7 @@ footer{border-top:1px solid var(--line);padding-top:24px;margin-top:56px;font-si
 <!-- ============ 00 行程总览 ============ -->
 <section id="overview">
   <h2><span class="n">00</span>行程总览</h2>
-  <p class="sub">三天两晚一表看完。9/25（周五）是中秋当天，也是三天里唯一不下雨的一天。</p>
+  <p class="sub">两天一晚一表看完。<b>房已订</b>，日期已确认，不用再平移。</p>
 
   <div class="ovw">
     <div class="tbl-wrap">
@@ -396,27 +377,19 @@ footer{border-top:1px solid var(--line);padding-top:24px;margin-top:56px;font-si
         <tbody>
           <tr class="hi">
             <td>9/25<br><span style="font-weight:400;color:var(--ink-3)">周五</span></td>
-            <td>密云<br>溪翁庄 → 穆家峪</td>
-            <td class="ovw-wx">多云 <b>16°/27°</b><br><span style="color:var(--green);font-weight:600">唯一好天</span></td>
-            <td class="ovw-tr">自驾<br>京承高速 16 号出口</td>
-            <td class="ovw-htl"><b>日光山谷</b><br>园区内 · 第 1 晚</td>
-            <td><b>06:30 前出门</b> → 08:30–09:00 到尖岩村 → <b>09:00–11:00 尖岩栈道</b>（1.86 km，俯瞰水库）→ <b>11:30 溪翁庄渔街全鱼宴</b> → 13:00 大坝外围 → <b>14:00 日光山谷入住</b> → 15:30 <b>180° 平台看水库</b> → 17:00 日落 → <b>20:00 中秋赏月</b></td>
+            <td>北京<br>→ 怀柔雁栖</td>
+            <td class="ovw-wx">多云 <b>17°/26°</b><br><span style="color:var(--green);font-weight:600">两天里最好的一天</span></td>
+            <td class="ovw-tr">自驾<br>京承高速 14 号出口</td>
+            <td class="ovw-htl"><b>山吧</b><br>阁楼房 · 已订</td>
+            <td><b>06:30 前出门</b> → 08:30–09:00 到栈道 → <b>09:00–12:00 神堂峪栈道 + 溪边玩水</b> → 12:00 虹鳟鱼午饭 → <b>14:00 山吧入住</b> → 下午泡园区溪水 → 18:00 晚餐 → <b>20:00 中秋赏月</b></td>
           </tr>
           <tr>
             <td>9/26<br><span style="font-weight:400;color:var(--ink-3)">周六</span></td>
-            <td>穆家峪<br><span style="color:var(--blue);font-weight:600">全在园区</span></td>
-            <td class="ovw-wx">多云转小雨 <b>15°/25°</b><br><span style="color:var(--red)">有雨</span></td>
-            <td class="ovw-tr">—<br><span style="color:var(--blue);font-weight:600">零驾驶</span></td>
-            <td class="ovw-htl"><b>日光山谷</b><br>同一家 · 第 2 晚</td>
-            <td>上午园区<b>室内</b>（昆虫博物馆 / 手作工坊 / 海洋球）→ 园区午餐 → 下午室内 / <b>雨停空窗立刻上平台补拍</b> → 17:00–19:30 晚餐</td>
-          </tr>
-          <tr>
-            <td>9/27<br><span style="font-weight:400;color:var(--ink-3)">周日</span></td>
-            <td>密云<br>→ 北京</td>
-            <td class="ovw-wx">小雨转阴 <b>13°/23°</b><br><span style="color:var(--red)">有雨</span></td>
-            <td class="ovw-tr">自驾<br>京承高速</td>
-            <td class="ovw-htl">—<br><span style="color:var(--ink-3)">12:00 前退房</span></td>
-            <td>上午收拾 → <b>10:00–11:00 上高速返程</b>（避开 13:00–20:00 返城高峰）→ 12:30–13:00 到家</td>
+            <td>怀柔<br>→ 北京</td>
+            <td class="ovw-wx">多云转小雨 <b>13°/25°</b><br><span style="color:var(--red)">温差 12 度</span></td>
+            <td class="ovw-tr">自驾<br>范崎路原路返</td>
+            <td class="ovw-htl">—<br><span style="color:var(--ink-3)">上午退房</span></td>
+            <td>自然醒 + 早餐 → 09:00–11:00 园区（雨小接着泡溪水 / 雨大退回木屋） → 11:00 退房 → 12:00 午饭 → <b>13:00 前上高速返程</b> → 14:30–15:00 到家</td>
           </tr>
         </tbody>
       </table>
@@ -424,610 +397,533 @@ footer{border-top:1px solid var(--line);padding-top:24px;margin-top:56px;font-si
   </div>
 
   <div class="note">
-    <p><b>这版行程的核心取舍</b>：三天里只有 9/25 一天不下雨，所以<b>把户外项全部压到周五</b>——尖岩栈道、渔街、大坝、180° 平台、日落、赏月一次做完；后两天转室内。</p>
-    <p><b>D1 为什么能装这么多</b>：尖岩栈道在<b>溪翁庄镇</b>，和渔街、大坝同一个镇；日光山谷在隔壁的穆家峪镇。三处都在<b>水库南线</b>上，正好串成"西→东"一条线，不走回头路。</p>
-    <p><b>住园区内 2 晚不换店</b>，是这趟行程的抗风险底座：雨天有落脚点和室内项目，带娃不用搬行李。而且渔街挪进 D1 之后，<b>D2 变成零驾驶</b>——雨天带娃开车这个最大风险源被砍掉了。</p>
-    <p><b>但前提是 9/25 不下雨。</b>尖岩栈道是木栈道，淋雨后极滑——<b>D1 若也下雨就果断放弃栈道，整天改走室内版</b>，别抱着"就走一小段"的心态上。</p>
+    <p><b>这趟的正确定位不是"去哪玩"，是"泡在溪水里"。</b>山吧和神堂峪栈道都在雁栖<b>不夜谷</b>，栈道起点就是不夜谷门区，山吧在长园村 —— 门对门，不用来回跑。</p>
+    <p><b>也别指望走完 7.5 km 栈道。</b>真实情况是：<b>"孩子看见河边有水就挪不动脚了"</b>。按<b>短线 3.5 km</b>规划，踩水捞小鱼才是主线。</p>
   </div>
 </section>
 
 <!-- ============ 01 天气 ============ -->
 <section id="weather">
   <h2><span class="n">01</span>天气</h2>
-  <p class="sub">中国天气网密云页 <b>9/22 抓取</b> · 三天里只有周五不下雨，周六周日连着两天有雨。</p>
+  <p class="sub">中国天气网<b>怀柔页</b> <b>9/22 抓取</b> · 与密云页数值略有差异，本页按怀柔页取值。</p>
 
   <div class="wx">
     <div class="wx-day hi">
-      <div class="lbl">9/25 周五 · 中秋当天 <span class="pill b">关键</span></div>
+      <div class="lbl">9/25 周五 · 户外主场 <span class="pill b">关键</span></div>
       <div class="ico">⛅</div>
       <div class="cond">多云</div>
-      <div class="temp">16° <small>～</small> 27°C</div>
-      <div class="meta">风力 &lt;3 级<br><b>户外项全部押这一天</b><br>云量最少，日落与赏月概率最高</div>
+      <div class="temp">17° <small>～</small> 26°C</div>
+      <div class="meta">风力 &lt;3 级<br><b>两天里最好的一天</b><br>栈道 + 溪水 + 赏月全押这天</div>
     </div>
     <div class="wx-day bad">
-      <div class="lbl">9/26 周六 · 转身室内</div>
+      <div class="lbl">9/26 周六 · 返程日</div>
       <div class="ico">🌦</div>
       <div class="cond">多云转小雨</div>
-      <div class="temp">15° <small>～</small> 25°C</div>
-      <div class="meta">风力 &lt;3 级<br>室外蹦床/攀爬/皮划艇可能停<br><b>改走室内 + 渔街吃鱼</b></div>
+      <div class="temp">13° <small>～</small> 25°C</div>
+      <div class="meta">风力 &lt;3 级<br><b>昼夜温差 12 度</b>，早晚加外套<br>雨小泡溪水，雨大退回木屋</div>
     </div>
-    <div class="wx-day bad">
-      <div class="lbl">9/27 周日 · 返程日</div>
+    <div class="wx-day">
+      <div class="lbl">9/27 周日 · 你已回家</div>
       <div class="ico">🌧</div>
       <div class="cond">小雨转阴</div>
       <div class="temp">13° <small>～</small> 23°C</div>
-      <div class="meta">风力 &lt;3 级<br>降温明显，加外套<br><b>上午走，别拖到下午</b></div>
+      <div class="meta">风力 &lt;3 级<br>这天是假期最后一天<br><span style="color:var(--red);font-weight:600">返城高峰 13:00–20:00</span>，你已在家的好处</div>
     </div>
   </div>
 
   <div class="warn">
-    <p><b>雨是这个行程的主约束。</b>密云好玩的绝大多数在户外和山路，两个雨天意味着：<b>不要指望"顺路再看一个景点"</b>，把预算的户外时间集中在周五。</p>
-    <p><b>明确不排</b>：云蒙山、黑龙潭、白龙潭、雾灵山、司马台长城——需要徒步 + 盘山路，雨天湿滑且带娃体力不划算。</p>
+    <p><b>为什么是 9/25 出发、9/26 回：</b>9/25 是中秋窗口里唯一不下雨的一天；9/26 傍晚前走，正好躲开 9/27（假期最后一天）13:00–20:00 最狠的返城高峰。</p>
+    <p><b>雨天红线：</b>9/26 有小雨，<b>沟谷沿河栈道有涨水风险 —— 雨天别下溪</b>，退回木屋；也提前问一下栈道当天有没有临时管控。</p>
   </div>
 
   <div class="note">
-    <p><b>穿衣</b>：白天 23–27°C 穿 T 恤/薄长袖，早晚 13–16°C 加薄外套。周日降温到 13°C，给娃多带一件。</p>
-    <p><b>带雨具两套</b>：周六周日都有雨，湿一套有得换；防水鞋比雨伞更实用。</p>
+    <p><b>穿衣</b>：白天 23–26°C 短袖/薄长袖，早晚 13–17°C 加薄外套。周六温差 12 度，给娃多带一件。</p>
+    <p><b>玩水装备</b>：防滑溯溪鞋（比雨靴实用）、娃的换洗衣物<b>两套</b>、速干毛巾、防水袋装手机。</p>
   </div>
 </section>
 
 <!-- ============ 02 路线图 ============ -->
 <section id="map">
   <h2><span class="n">02</span>路线图</h2>
-  <p class="sub">三张图看懂：大区位、三天动线、园区内住宿与景点位置关系。示意图，非精确比例。</p>
+  <p class="sub">三张图看懂：怎么开过去、第一天怎么走、山吧和栈道离得多近。示意图，非精确比例。</p>
 
-  <h3>2.1 大区位：密云水库周边怎么分布</h3>
+  <h3>2.1 大区位：一条路直达不夜谷</h3>
   <div class="mapfig">
-    <svg viewBox="0 0 920 430" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="密云水库周边区位示意图">
+    <svg viewBox="0 0 920 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="市区到怀柔雁栖不夜谷路线示意图">
       <defs>
         <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
-          <path d="M0,0 L10,5 L0,10 z" fill="#17647a"/>
+          <path d="M0,0 L10,5 L0,10 z" fill="#1f6f6a"/>
         </marker>
         <marker id="ar2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
           <path d="M0,0 L10,5 L0,10 z" fill="#b58a3c"/>
         </marker>
       </defs>
-      <rect x="0" y="0" width="920" height="430" fill="#fcfcfb"/>
+      <rect x="0" y="0" width="920" height="400" fill="#fcfcfa"/>
 
-      <!-- 密云水库水体 -->
-      <path d="M300,150 C340,120 420,132 470,120 C520,108 580,124 610,152 C640,180 620,214 578,226 C536,238 486,232 448,240 C408,248 356,242 326,214 C304,194 284,176 300,150 Z"
-            fill="#cfe6ec" stroke="#17647a" stroke-width="2"/>
-      <text x="452" y="182" font-size="17" font-weight="700" text-anchor="middle" fill="#0f4d60">密云水库</text>
-      <text x="452" y="204" font-size="11.5" text-anchor="middle" fill="#17647a">一级饮用水水源保护区 · 禁止进入</text>
-
-      <!-- 北京 -->
-      <circle cx="120" cy="392" r="9" fill="#868f8e"/>
-      <text x="120" y="374" font-size="15" font-weight="700" text-anchor="middle" fill="#232829">北京（市区）</text>
-      <text x="120" y="414" font-size="11.5" text-anchor="middle" fill="#868f8e">自驾 72 km</text>
-
-      <!-- 密云城区 -->
-      <circle cx="252" cy="330" r="7" fill="#55605f"/>
-      <text x="252" y="316" font-size="12.5" text-anchor="middle" fill="#55605f">密云城区</text>
+      <!-- 市区 -->
+      <circle cx="96" cy="344" r="10" fill="#868f8e"/>
+      <text x="96" y="324" font-size="15" font-weight="700" text-anchor="middle" fill="#232828">北京市区</text>
 
       <!-- 京承高速 -->
-      <path d="M132,388 C170,368 216,346 244,334" fill="none" stroke="#55605f" stroke-width="2.4" stroke-dasharray="7 5" marker-end="url(#ar)"/>
-      <text x="196" y="374" font-size="12" text-anchor="middle" fill="#55605f" font-weight="600">京承高速约 1.5h</text>
+      <path d="M108,336 C220,300 320,250 396,214" fill="none" stroke="#1f6f6a" stroke-width="3" stroke-dasharray="8 5" marker-end="url(#ar)"/>
+      <text x="250" y="290" font-size="12.5" font-weight="600" fill="#1f6f6a">京承高速 · 约 1.5h · ETC ¥19</text>
 
-      <!-- 日光山谷（主基地） -->
-      <circle cx="400" cy="300" r="12" fill="#17647a"/>
-      <circle cx="400" cy="300" r="22" fill="none" stroke="#17647a" stroke-width="1.2" stroke-dasharray="3 3"/>
-      <text x="400" y="276" font-size="16" font-weight="700" text-anchor="middle" fill="#0f4d60">日光山谷</text>
-      <text x="400" y="336" font-size="11.5" text-anchor="middle" fill="#55605f">穆家峪 · 阁老峪村 · 南线</text>
-      <text x="400" y="354" font-size="11.5" text-anchor="middle" fill="#17647a" font-weight="600">住 2 晚 · 180° 平台看水库</text>
-      <path d="M266,326 L388,304" fill="none" stroke="#17647a" stroke-width="2.4" marker-end="url(#ar)"/>
+      <!-- 14 号出口 -->
+      <circle cx="410" cy="206" r="8" fill="#5a7d2e"/>
+      <text x="410" y="186" font-size="12.5" font-weight="700" text-anchor="middle" fill="#4a6b22">14 号出口（怀柔）</text>
 
-      <!-- 溪翁庄渔街 + 大坝 -->
-      <circle cx="238" cy="220" r="8" fill="#b58a3c"/>
-      <text x="176" y="206" font-size="13.5" font-weight="700" text-anchor="middle" fill="#8a6520">溪翁庄渔街</text>
-      <text x="176" y="224" font-size="11" text-anchor="middle" fill="#8a6520">大坝外围 · 全鱼宴</text>
-      <path d="M392,292 C340,270 280,244 248,226" fill="none" stroke="#b58a3c" stroke-width="2.2" marker-end="url(#ar2)"/>
-      <text x="322" y="250" font-size="11.5" text-anchor="middle" fill="#8a6520">南线相连</text>
+      <!-- 雁栖湖环岛 -->
+      <circle cx="520" cy="164" r="8" fill="#b58a3c"/>
+      <text x="520" y="144" font-size="12.5" font-weight="700" text-anchor="middle" fill="#8a6520">雁栖湖环岛</text>
+      <path d="M416,202 C450,190 486,176 512,168" fill="none" stroke="#1f6f6a" stroke-width="2.4" marker-end="url(#ar)"/>
 
-      <!-- 蜜蜂大世界 -->
-      <circle cx="612" cy="98" r="8" fill="#3f7a54"/>
-      <text x="668" y="84" font-size="13.5" font-weight="700" text-anchor="middle" fill="#2f5d42">蜜蜂大世界</text>
-      <text x="668" y="102" font-size="11" text-anchor="middle" fill="#3f7a54">太师屯 · 室内科普</text>
-      <path d="M410,292 C470,240 540,160 602,106" fill="none" stroke="#3f7a54" stroke-width="2.2" stroke-dasharray="6 4" marker-end="url(#ar2)"/>
-      <text x="520" y="212" font-size="11.5" text-anchor="middle" fill="#3f7a54">雨天备选 · 需绕行</text>
+      <!-- 范崎路 -->
+      <path d="M528,158 C580,132 636,112 690,104" fill="none" stroke="#b58a3c" stroke-width="2.8" marker-end="url(#ar2)"/>
+      <text x="600" y="140" font-size="12" font-weight="600" fill="#8a6520">范崎路（进山段较窄 · 慢开）</text>
 
-      <!-- 不排的北线 -->
-      <circle cx="740" cy="286" r="6" fill="#c6bdb0"/>
-      <text x="770" y="290" font-size="11.5" fill="#868f8e">北线观景台 / 白河大桥</text>
-      <text x="770" y="308" font-size="11.5" fill="#a8342a" font-weight="600">本次不排（绕行远 · 雨天湿滑）</text>
+      <!-- 不夜谷 -->
+      <ellipse cx="760" cy="104" rx="118" ry="72" fill="#e3f1f0" stroke="#1f6f6a" stroke-width="2"/>
+      <text x="760" y="66" font-size="16" font-weight="700" text-anchor="middle" fill="#14514e">雁栖「不夜谷」</text>
+      <circle cx="712" cy="104" r="9" fill="#1f6f6a"/>
+      <text x="712" y="130" font-size="12" font-weight="700" text-anchor="middle" fill="#14514e">神堂峪栈道起点</text>
+      <circle cx="812" cy="124" r="9" fill="#b58a3c"/>
+      <text x="812" y="150" font-size="12" font-weight="700" text-anchor="middle" fill="#8a6520">山吧（长园村）</text>
+      <text x="760" y="196" font-size="11.5" text-anchor="middle" fill="#55605f">同一片区 · 门对门 · 不用来回跑</text>
 
       <text x="24" y="34" font-size="12.5" fill="#868f8e">示意图 · 非精确比例</text>
     </svg>
-    <p class="cap">看水库的点都落在<b>水库南线</b>（溪翁庄 → 穆家峪）。北岸的观景台要绕水库另一侧走盘山路，本次不排。</p>
+    <p class="cap">一条 <b>范崎路</b> 串起来：14 号出口 → 雁栖湖环岛 → 不夜谷 → 栈道 / 山吧。</p>
   </div>
 
-  <h3>2.2 三天动线：去程 / 南线短途 / 返程</h3>
+  <h3>2.2 第一天动线：好天气一天用满</h3>
   <div class="mapfig">
-    <svg viewBox="0 0 920 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="三天动线示意图">
+    <svg viewBox="0 0 920 270" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="第一天逐段动线">
       <defs>
         <marker id="ar3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
-          <path d="M0,0 L10,5 L0,10 z" fill="#17647a"/>
+          <path d="M0,0 L10,5 L0,10 z" fill="#1f6f6a"/>
         </marker>
         <marker id="ar4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
           <path d="M0,0 L10,5 L0,10 z" fill="#b58a3c"/>
         </marker>
       </defs>
-      <rect width="920" height="280" fill="#fcfcfb"/>
-      <line x1="70" y1="140" x2="850" y2="140" stroke="#dde2df" stroke-width="3"/>
+      <rect width="920" height="270" fill="#fcfcfa"/>
+      <line x1="66" y1="140" x2="858" y2="140" stroke="#dde2dd" stroke-width="3"/>
 
       <g font-family="inherit">
-        <circle cx="86" cy="140" r="13" fill="#55605f"/>
-        <text x="86" y="145" font-size="13" font-weight="700" text-anchor="middle" fill="#fff">1</text>
-        <text x="86" y="110" font-size="12.5" font-weight="700" text-anchor="middle" fill="#232829">家</text>
-        <text x="86" y="92" font-size="11" text-anchor="middle" fill="#868f8e">06:30 前</text>
-        <text x="86" y="178" font-size="11" text-anchor="middle" fill="#55605f">上京承高速</text>
-        <text x="86" y="194" font-size="11" text-anchor="middle" fill="#a8342a" font-weight="600">避开 07:00 出城高峰</text>
+        <circle cx="82" cy="140" r="13" fill="#55605f"/>
+        <text x="82" y="145" font-size="13" font-weight="700" text-anchor="middle" fill="#fff">1</text>
+        <text x="82" y="110" font-size="12.5" font-weight="700" text-anchor="middle" fill="#232828">家</text>
+        <text x="82" y="92" font-size="11" text-anchor="middle" fill="#868f8e">06:30 前</text>
+        <text x="82" y="178" font-size="11" text-anchor="middle" fill="#55605f">上京承高速</text>
+        <text x="82" y="194" font-size="11" text-anchor="middle" fill="#a8342a" font-weight="600">躲 07:00 出城高峰</text>
 
-        <circle cx="272" cy="140" r="13" fill="#868f8e"/>
-        <text x="272" y="145" font-size="13" font-weight="700" text-anchor="middle" fill="#fff">2</text>
-        <text x="272" y="110" font-size="12.5" font-weight="700" text-anchor="middle" fill="#232829">服务区</text>
-        <text x="272" y="92" font-size="11" text-anchor="middle" fill="#868f8e">07:30</text>
-        <text x="272" y="178" font-size="11" text-anchor="middle" fill="#55605f">歇 10 分钟</text>
-        <text x="272" y="194" font-size="11" text-anchor="middle" fill="#55605f">带娃上厕所</text>
+        <circle cx="238" cy="140" r="13" fill="#868f8e"/>
+        <text x="238" y="145" font-size="13" font-weight="700" text-anchor="middle" fill="#fff">2</text>
+        <text x="238" y="110" font-size="12.5" font-weight="700" text-anchor="middle" fill="#232828">服务区</text>
+        <text x="238" y="92" font-size="11" text-anchor="middle" fill="#868f8e">07:30</text>
+        <text x="238" y="178" font-size="11" text-anchor="middle" fill="#55605f">歇 10 分钟</text>
 
-        <circle cx="470" cy="140" r="15" fill="#17647a"/>
-        <text x="470" y="145" font-size="13" font-weight="700" text-anchor="middle" fill="#fff">3</text>
-        <text x="470" y="110" font-size="13" font-weight="700" text-anchor="middle" fill="#0f4d60">日光山谷</text>
-        <text x="470" y="92" font-size="11" text-anchor="middle" fill="#868f8e">08:30–09:00 到</text>
-        <text x="470" y="178" font-size="11" text-anchor="middle" fill="#55605f">先寄存行李</text>
-        <text x="470" y="194" font-size="11" text-anchor="middle" fill="#a8342a" font-weight="600">14:00 才能入住</text>
+        <circle cx="404" cy="140" r="15" fill="#1f6f6a"/>
+        <text x="404" y="145" font-size="13" font-weight="700" text-anchor="middle" fill="#fff">3</text>
+        <text x="404" y="110" font-size="13" font-weight="700" text-anchor="middle" fill="#14514e">神堂峪栈道</text>
+        <text x="404" y="92" font-size="11" text-anchor="middle" fill="#868f8e">08:30–12:00</text>
+        <text x="404" y="178" font-size="11" text-anchor="middle" fill="#14514e" font-weight="600">踩水捞鱼（短线）</text>
+        <text x="404" y="194" font-size="11" text-anchor="middle" fill="#55605f">免费 · 停车 20 元/天</text>
 
-        <circle cx="680" cy="140" r="13" fill="#b58a3c"/>
-        <text x="680" y="145" font-size="13" font-weight="700" text-anchor="middle" fill="#fff">4</text>
-        <text x="680" y="110" font-size="12.5" font-weight="700" text-anchor="middle" fill="#232829">180° 观景平台</text>
-        <text x="680" y="92" font-size="11" text-anchor="middle" fill="#868f8e">15:30–17:00</text>
-        <text x="680" y="178" font-size="11" text-anchor="middle" fill="#8a6520">看水库 · 日落</text>
-        <text x="680" y="194" font-size="11" text-anchor="middle" fill="#8a6520" font-weight="600">中秋赏月</text>
+        <circle cx="566" cy="140" r="13" fill="#b58a3c"/>
+        <text x="566" y="145" font-size="13" font-weight="700" text-anchor="middle" fill="#fff">4</text>
+        <text x="566" y="110" font-size="12.5" font-weight="700" text-anchor="middle" fill="#232828">虹鳟鱼午饭</text>
+        <text x="566" y="92" font-size="11" text-anchor="middle" fill="#868f8e">12:00–13:30</text>
+        <text x="566" y="178" font-size="11" text-anchor="middle" fill="#8a6520">鱼师傅 / 山野居</text>
+        <text x="566" y="194" font-size="11" text-anchor="middle" fill="#55605f">烤虹鳟 · 贴饼子</text>
 
-        <circle cx="836" cy="140" r="13" fill="#3f7a54"/>
-        <text x="836" y="145" font-size="13" font-weight="700" text-anchor="middle" fill="#fff">5</text>
-        <text x="836" y="110" font-size="12.5" font-weight="700" text-anchor="middle" fill="#232829">回房</text>
-        <text x="836" y="92" font-size="11" text-anchor="middle" fill="#868f8e">21:30</text>
-        <text x="836" y="178" font-size="11" text-anchor="middle" fill="#55605f">晚餐 17:00–20:00</text>
-        <text x="836" y="194" font-size="11" text-anchor="middle" fill="#55605f">早睡</text>
+        <circle cx="712" cy="140" r="13" fill="#1f6f6a"/>
+        <text x="712" y="145" font-size="13" font-weight="700" text-anchor="middle" fill="#fff">5</text>
+        <text x="712" y="110" font-size="12.5" font-weight="700" text-anchor="middle" fill="#232828">山吧入住</text>
+        <text x="712" y="92" font-size="11" text-anchor="middle" fill="#868f8e">14:00</text>
+        <text x="712" y="178" font-size="11" text-anchor="middle" fill="#14514e">泡溪水 · 捞虹鳟</text>
+        <text x="712" y="194" font-size="11" text-anchor="middle" fill="#55605f">18:00 晚餐</text>
 
-        <path d="M102,140 L256,140" stroke="#17647a" stroke-width="2.6" marker-end="url(#ar3)"/>
-        <path d="M288,140 L452,140" stroke="#17647a" stroke-width="2.6" marker-end="url(#ar3)"/>
-        <path d="M488,140 L664,140" stroke="#b58a3c" stroke-width="2.6" marker-end="url(#ar4)"/>
-        <path d="M696,140 L820,140" stroke="#b58a3c" stroke-width="2.6" marker-end="url(#ar4)"/>
+        <circle cx="848" cy="140" r="13" fill="#5a7d2e"/>
+        <text x="848" y="145" font-size="13" font-weight="700" text-anchor="middle" fill="#fff">6</text>
+        <text x="848" y="110" font-size="12.5" font-weight="700" text-anchor="middle" fill="#232828">赏月</text>
+        <text x="848" y="92" font-size="11" text-anchor="middle" fill="#868f8e">20:00</text>
+        <text x="848" y="178" font-size="11" text-anchor="middle" fill="#4a6b22">中秋（八月十五）</text>
+        <text x="848" y="194" font-size="11" text-anchor="middle" fill="#55605f">溪边 / 露台</text>
+
+        <path d="M98,140 L222,140" stroke="#1f6f6a" stroke-width="2.6" marker-end="url(#ar3)"/>
+        <path d="M254,140 L388,140" stroke="#1f6f6a" stroke-width="2.6" marker-end="url(#ar3)"/>
+        <path d="M422,140 L550,140" stroke="#b58a3c" stroke-width="2.6" marker-end="url(#ar4)"/>
+        <path d="M582,140 L696,140" stroke="#b58a3c" stroke-width="2.6" marker-end="url(#ar4)"/>
+        <path d="M728,140 L832,140" stroke="#5a7d2e" stroke-width="2.6" marker-end="url(#ar3)"/>
       </g>
 
-      <text x="24" y="244" font-size="12" fill="#17647a" font-weight="600">周五 9/25 一天走完上面这条线（唯一好天气）：尖岩栈道 → 渔街 → 大坝 → 日光山谷平台 · 周六全在园区零驾驶 · 周日 10:00–11:00 上高速返程</text>
+      <text x="24" y="240" font-size="12" fill="#1f6f6a" font-weight="600">9/25 一天走完这条线（唯一好天气）· 9/26 上午留在园区、13:00 前上高速返程</text>
     </svg>
-    <p class="cap">周五把户外项一次做完；周六周日不排远点。</p>
+    <p class="cap">上午在栈道玩水，中午吃鱼，下午进山吧接着泡 —— <b>全程都在同一片山谷里</b>。</p>
   </div>
 
-  <h3>2.3 园区内：住处和要玩的点在哪</h3>
+  <h3>2.3 空间关系：山吧、栈道、吃饭离得多近</h3>
   <div class="mapfig">
-    <svg viewBox="0 0 920 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="日光山谷园区内布局示意图">
-      <rect width="920" height="400" fill="#fcfcfb"/>
+    <svg viewBox="0 0 920 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="不夜谷内山吧与栈道位置关系示意图">
+      <rect width="920" height="340" fill="#fcfcfa"/>
 
-      <!-- 园区边界 -->
-      <rect x="60" y="46" width="800" height="308" rx="10" fill="#f7f9f8" stroke="#17647a" stroke-width="2.5"/>
-      <text x="80" y="34" font-size="12.5" fill="#868f8e">日光山谷园区（示意 · 约 825 亩 · 紧邻密云水库南线）</text>
+      <!-- 范崎路 -->
+      <path d="M40,190 C220,176 480,150 880,126" fill="none" stroke="#ded7c8" stroke-width="14" stroke-linecap="round"/>
+      <text x="120" y="216" font-size="12" fill="#868f8e">范崎路（自雁栖湖上来）</text>
 
-      <!-- 水库方向 -->
-      <path d="M60,120 C20,124 20,268 60,272 L60,120 Z" fill="#cfe6ec" stroke="#17647a" stroke-width="1.6"/>
-      <text x="34" y="196" font-size="11.5" fill="#0f4d60" font-weight="700" transform="rotate(-90 34 196)">密云水库</text>
+      <!-- 溪流 -->
+      <path d="M60,262 C260,254 520,236 880,222" fill="none" stroke="#cfe6e4" stroke-width="10" stroke-linecap="round"/>
+      <text x="96" y="288" font-size="12" font-weight="600" fill="#1f6f6a">雁栖河 / 溪流</text>
 
-      <!-- 大门/前台 -->
-      <rect x="392" y="338" width="136" height="34" rx="6" fill="#e3f0f4" stroke="#17647a" stroke-width="1.4"/>
-      <text x="460" y="360" font-size="13" font-weight="700" text-anchor="middle" fill="#0f4d60">大门 · 前台</text>
-      <text x="544" y="360" font-size="11.5" fill="#55605f">入住 14:00 后 / 退房 12:00 前</text>
+      <!-- 栈道起点 -->
+      <circle cx="230" cy="176" r="13" fill="#1f6f6a"/>
+      <text x="230" y="181" font-size="12" font-weight="700" text-anchor="middle" fill="#fff">1</text>
+      <text x="230" y="152" font-size="13.5" font-weight="700" text-anchor="middle" fill="#14514e">神堂峪栈道起点</text>
+      <text x="230" y="132" font-size="11" text-anchor="middle" fill="#868f8e">不夜谷门区 · 7.5 km 免费</text>
 
-      <!-- 住宿区 -->
-      <rect x="120" y="196" width="176" height="86" rx="8" fill="#ffffff" stroke="#b58a3c" stroke-width="1.6"/>
-      <text x="208" y="222" font-size="13.5" font-weight="700" text-anchor="middle" fill="#8a6520">住宿区</text>
-      <text x="208" y="242" font-size="11.5" text-anchor="middle" fill="#55605f">房车 / 木屋别墅 / 小院</text>
-      <text x="208" y="262" font-size="11.5" text-anchor="middle" fill="#55605f">6 种房型 · 共 76 间</text>
+      <!-- 溪边玩水 -->
+      <circle cx="452" cy="180" r="13" fill="#5a7d2e"/>
+      <text x="452" y="185" font-size="12" font-weight="700" text-anchor="middle" fill="#fff">2</text>
+      <text x="452" y="156" font-size="13.5" font-weight="700" text-anchor="middle" fill="#4a6b22">溪边浅滩</text>
+      <text x="452" y="136" font-size="11" text-anchor="middle" fill="#868f8e">带娃直接导航「不夜谷停车场」</text>
 
-      <!-- 餐厅 -->
-      <rect x="120" y="86" width="176" height="76" rx="8" fill="#ffffff" stroke="#3f7a54" stroke-width="1.6"/>
-      <text x="208" y="112" font-size="13.5" font-weight="700" text-anchor="middle" fill="#2f5d42">餐厅</text>
-      <text x="208" y="132" font-size="11.5" text-anchor="middle" fill="#55605f">晚餐 17:00–20:00</text>
-      <text x="208" y="150" font-size="11.5" text-anchor="middle" fill="#55605f">住宿含早晚餐（待核）</text>
+      <!-- 虹鳟鱼 -->
+      <circle cx="640" cy="158" r="13" fill="#b58a3c"/>
+      <text x="640" y="163" font-size="12" font-weight="700" text-anchor="middle" fill="#fff">3</text>
+      <text x="640" y="134" font-size="13.5" font-weight="700" text-anchor="middle" fill="#8a6520">虹鳟鱼农家院</text>
+      <text x="640" y="114" font-size="11" text-anchor="middle" fill="#868f8e">鱼师傅 / 山野居</text>
 
-      <!-- 亲子乐园 -->
-      <rect x="330" y="86" width="176" height="76" rx="8" fill="#ffffff" stroke="#b58a3c" stroke-width="1.6"/>
-      <text x="418" y="112" font-size="13.5" font-weight="700" text-anchor="middle" fill="#8a6520">亲子乐园</text>
-      <text x="418" y="132" font-size="11.5" text-anchor="middle" fill="#55605f">海洋球 · 攀爬架</text>
-      <text x="418" y="150" font-size="11.5" text-anchor="middle" fill="#55605f">蹦床 · 秋千</text>
+      <!-- 山吧 -->
+      <circle cx="812" cy="132" r="15" fill="#1f6f6a"/>
+      <text x="812" y="137" font-size="12" font-weight="700" text-anchor="middle" fill="#fff">4</text>
+      <text x="812" y="102" font-size="14.5" font-weight="700" text-anchor="middle" fill="#14514e">山吧（住这里）</text>
+      <text x="812" y="82" font-size="11" text-anchor="middle" fill="#868f8e">长园村 318 号 · 阁楼房</text>
 
-      <!-- 室内 -->
-      <rect x="330" y="196" width="176" height="86" rx="8" fill="#ffffff" stroke="#17647a" stroke-width="1.6"/>
-      <text x="418" y="222" font-size="13.5" font-weight="700" text-anchor="middle" fill="#0f4d60">室内项目</text>
-      <text x="418" y="242" font-size="11.5" text-anchor="middle" fill="#55605f">昆虫博物馆</text>
-      <text x="418" y="262" font-size="11.5" text-anchor="middle" fill="#55605f">手作工坊（陶艺 · 扎染）</text>
+      <path d="M246,178 L436,180" stroke="#1f6f6a" stroke-width="2.4"/>
+      <path d="M468,178 L624,160" stroke="#1f6f6a" stroke-width="2.4"/>
+      <path d="M656,156 L796,136" stroke="#1f6f6a" stroke-width="2.4"/>
 
-      <!-- 180° 平台 -->
-      <rect x="560" y="112" width="264" height="112" rx="8" fill="#e3f0f4" stroke="#17647a" stroke-width="2"/>
-      <text x="692" y="140" font-size="15" font-weight="700" text-anchor="middle" fill="#0f4d60">180° 无遮挡观景平台</text>
-      <text x="692" y="164" font-size="12" text-anchor="middle" fill="#17647a">密云"看海"核心机位</text>
-      <text x="692" y="186" font-size="12" text-anchor="middle" fill="#55605f">清晨看红日出水 · 傍晚看落日熔金</text>
-      <text x="692" y="208" font-size="11.5" text-anchor="middle" fill="#a8342a" font-weight="600">本趟的主战场：周五下午 + 日落 + 中秋赏月</text>
-
-      <path d="M540,140 L556,140" stroke="#17647a" stroke-width="2.4"/>
-      <path d="M540,226 L556,226" stroke="#17647a" stroke-width="2.4"/>
-      <line x1="556" y1="140" x2="556" y2="226" stroke="#17647a" stroke-width="2.4"/>
-
-      <text x="80" y="380" font-size="11.5" fill="#868f8e">注：园区内具体方位、摆渡车（单程约 30 / 往返约 50）与付费项目情况以现场为准 —— 示意图只表达"不用走路就能看到水库"这件事。</text>
+      <text x="460" y="316" font-size="11.5" text-anchor="middle" fill="#868f8e">示意图 · 只表达"都在一起"，具体里程以导航为准</text>
+      <text x="120" y="42" font-size="12.5" fill="#868f8e">不是四个地方，是<b>一条沟里</b>的四件事</text>
     </svg>
-    <p class="cap">看水库在<b>园区内</b>就能完成、不用走路；上午的尖岩栈道则在溪翁庄镇（同一个南线上，车程连续）。</p>
+    <p class="cap">栈道、溪边、吃鱼、住宿都在同一条沟里 —— <b>这就是为什么这趟不用赶路</b>。</p>
   </div>
 </section>
 
 <!-- ============ 03 住宿 ============ -->
 <section id="stay">
   <h2><span class="n">03</span>住宿</h2>
-  <p class="sub">日光山谷园区内连住 2 晚（9/25、9/26），不换店。带娃少搬一次行李，雨天有落脚点。</p>
+  <p class="sub">山吧（北京水岸山吧度假村）· <b>阁楼房 · 1 晚 · 已订</b></p>
 
   <div class="card">
-    <h3 style="margin-top:0">日光山谷 · 密云区穆家峪镇阁老峪村黑大路 1 号</h3>
+    <h3 style="margin-top:0">山吧 · 怀柔区雁栖镇长园村 318 号（雁栖「不夜谷」内）</h3>
     <div class="tbl-wrap">
       <table>
         <tbody>
-          <tr><th style="width:30%">位置</th><td>密云水库南线，紧邻京承高速，<b>南距市区 72 km</b>，占地约 825 亩</td></tr>
-          <tr><th>房型</th><td>房车 / 木屋别墅 / 私享小院等 <b>6 种</b>，共 <b>76 间</b>客房</td></tr>
-          <tr><th>参考价</th><td><b>458–858 元/晚</b>，宣称<b>含早晚餐及门票</b>（<b>待核实</b>）</td></tr>
-          <tr><th>园区规则</th><td>入住 <b>14:00 后</b> · 退房 <b>12:00 前</b> · 晚餐 <b>17:00–20:00</b></td></tr>
-          <tr><th>免票人群</th><td><b>1.2 米以下儿童</b> · 70 周岁以上老人 · 现役/退役军人凭证（<b>另有"12 岁以下"说法，待核实</b>）</td></tr>
-          <tr><th>付费项</th><td>摆渡车 单程约 30 / 往返约 50 · 米可米吉亲子乐园（两大一小约 243 元）· 直升机看水库 398 元起</td></tr>
-          <tr><th>电话</th><td class="tel">4006-778-668</td></tr>
+          <tr><th style="width:30%">电话 / 预订</th><td><span class="tel">(010) 61627396</span> · 微信<b>公众号搜「山吧」</b>（房型最全）</td></tr>
+          <tr><th>你订的</th><td><b>阁楼房 · 9/25 入住 / 9/26 退房 · 1 晚</b></td></tr>
+          <tr><th>参考价</th><td>全店 <b>400–1,280 元/晚</b>；阁楼房对照价 <b>400+ 起</b>（中秋有上浮，实付见订单）</td></tr>
+          <tr><th>其他房型</th><td>溪边木屋 <b>700+</b>（推窗见溪流）· 复式家庭房 <b>900+</b>（房里有儿童帐篷）· 山顶居（三面落地窗 + 阳台）</td></tr>
+          <tr><th>园区</th><td>一条溪流穿园而过 · <b>可手捞虹鳟鱼</b> · 餐厅 / 咖啡厅 / 酒吧 / 茶室 · 私人停车场免费 · 充电桩 · 宠物友好</td></tr>
+          <tr><th>评分</th><td>约 <b>4.0 / 5</b>（环境 <b>4.2</b> · 服务 4.0 · 卫生 3.9 · 设施 <b>3.7</b>）· 标签里有"适合带娃"</td></tr>
         </tbody>
       </table>
     </div>
   </div>
 
   <div class="warn">
-    <p><b>房要今天就订。</b>离出发只剩 3 天、中秋旺季，官方出行提示里明确写了"节假日日光山谷等热门酒店民宿非常紧俏，建议提前预订"。园区只有 76 间房，又赶上中秋。</p>
-    <p><b>订之前必须确认"房费含什么"</b>——如果 458–858 元真含早晚餐及门票，两晚房费基本就覆盖了全部必要开销；如果不含，预算要重算。</p>
+    <p><b>期望管理（这条最重要）</b>：环境分 4.2，设施分只有 3.7 —— 点评里有住客直说"<b>800 元的房间感觉有点简陋</b>"。这趟买的是<b>溪水和山</b>，不是房间硬件。心态放对，体验就好。</p>
+        <p><b>阁楼房的一个提醒</b>：房型解析的原话是阁楼房偏"星空控"，"<b>亲子的话就看孩子睡眠习惯</b>"。带娃住要注意两件事 —— <b>① 遮光</b>（顶部采光容易天亮被叫醒）<b>② 结构安全</b>（楼梯、栏杆要有人盯）。这两条建议在电话里一次问掉。</p>
   </div>
 
-  <div class="note">
-    <p><b>为什么不住周边民宿</b>：雨天带娃，最怕"困在半路"。园区内住可以让"天气差"这件事的代价降到最低——下楼就有室内项目和餐厅。想换口味的话，D2 中午去溪翁庄渔街吃鱼就够了。</p>
+  <div class="warn">
+    <p><b>别订错地方</b>：山吧还有一家<b>分店（山吧Part）在桥梓镇</b>，靠京承高速<b>北石槽出口</b>——和本店不是一处。你要去的是<b>雁栖镇长园村 318 号</b>。</p>
   </div>
 </section>
 
 <!-- ============ 04 周五 ============ -->
 <section id="day1">
-  <h2><span class="n">04</span>周五 9/25 · 户外日</h2>
-  <p class="sub">多云 16–27℃ · 中秋当天 · <b>三天里唯一不下雨的一天，步道和看水库全部押在今天</b> · <b>溪翁庄半天 + 日光山谷半天，不走回头路</b></p>
+  <h2><span class="n">04</span>周五 9/25 · 户外主场</h2>
+  <p class="sub">怀柔多云 <b>17–26℃</b> · 两天里最好的一天 · <b>栈道 + 溪水 + 赏月全押今天</b></p>
 
   <div class="card tight">
     <div class="tbl-wrap">
       <table>
         <thead><tr><th style="width:22%">时间</th><th style="width:26%">在哪</th><th>做什么</th></tr></thead>
         <tbody>
-          <tr><td class="mono">05:45</td><td>家</td><td>起床 —— 前一晚已把所有行李和娃的东西打包好，早上只做穿衣吃饭</td></tr>
-          <tr><td class="mono">06:15</td><td>家</td><td>装车：<b>儿童安全座椅</b>、雨具、防滑鞋、保温杯、零食</td></tr>
+          <tr><td class="mono">05:45</td><td>家</td><td>起床 —— 前一晚把所有行李和娃的东西打包好，早上只做穿衣吃饭</td></tr>
+          <tr><td class="mono">06:15</td><td>家</td><td>装车：<b>儿童安全座椅</b>、<b>防滑溯溪鞋</b>、娃的换洗衣物<b>两套</b>、防蚊、防晒、保温杯、零食、防水袋</td></tr>
           <tr><td class="mono"><b>06:30</b></td><td>出发</td><td>上京承高速 —— <b>目标是 07:00 出城高峰前上路</b></td></tr>
           <tr><td class="mono">07:30</td><td>服务区</td><td>中途歇一次，带娃上厕所/活动 10 分钟</td></tr>
-          <tr><td class="mono">08:30–09:00</td><td><b>尖岩村</b></td><td>京承高速 <b>16 号出口 → 密溪路</b>进溪翁庄镇。导航"sanfo hood 印象营地"／"印象山里"。栈道入口<b>有停车场和卫生间</b></td></tr>
-          <tr class="total"><td class="mono"><b>09:00–11:00</b></td><td><b>尖岩村北山木栈道</b></td><td><b>本趟的步道项</b>：1.86 km 木栈道，沿山脊盘旋而上，登顶约 1 小时，沿途 5 个观景平台 —— <b>登顶俯瞰密云水库</b>，远眺五座楼长城、密云新城</td></tr>
-          <tr><td class="mono">11:15–11:30</td><td>车程</td><td>尖岩村 → 溪翁庄渔街（同在溪翁庄镇，很近）</td></tr>
-          <tr class="total"><td class="mono">11:30–13:00</td><td><b>金鼎鱼香生态渔村</b></td><td><b>全鱼宴午饭</b> · <span class="tel">010-69017633</span> · 营业 09:00–21:00 · <b>提前订位</b></td></tr>
-          <tr><td class="mono">13:00–13:30</td><td><b>溪翁庄大坝外围</b></td><td>顺路打卡 —— <b>只看外围，不进工程区、不进一级保护水域</b></td></tr>
-          <tr><td class="mono">13:30–14:00</td><td>车程</td><td>溪翁庄 → 日光山谷（<b>水库南线西→东</b>，同一片区）</td></tr>
-          <tr><td class="mono">14:00</td><td>日光山谷前台</td><td><b>办入住</b>，行李进房间，娃补个觉</td></tr>
-          <tr class="total"><td class="mono">15:30–17:00</td><td><b>180° 观景平台</b></td><td><b>看密云水库 —— 本趟的平视机位</b>，在园区内、不用走路</td></tr>
-          <tr><td class="mono">17:00–18:00</td><td>平台</td><td>看日落（三天里云量最少的一晚，出片概率最高）</td></tr>
-          <tr><td class="mono">18:00–19:30</td><td>园区餐厅</td><td>晚餐（落在 <b>17:00–20:00</b> 时段内）</td></tr>
-          <tr><td class="mono">20:00–21:00</td><td>平台</td><td><b>中秋赏月</b>（当天是农历八月十五）—— 云厚就回房，不硬等</td></tr>
-          <tr><td class="mono">21:30</td><td>房间</td><td>洗漱睡觉。<b>次日不赶早，睡到自然醒</b></td></tr>
+          <tr><td class="mono">08:30–09:00</td><td><b>神堂峪栈道起点</b></td><td>京承高速 <b>14 号出口（怀柔）</b> → 雁栖湖环岛 → 范崎路。导航「<b>范崎路川谷卡丁车西 40 米</b>」或「神堂峪栈道-神堂柳堤」。<b>早 9 点前到，停车不愁</b></td></tr>
+          <tr class="total"><td class="mono"><b>09:00–12:00</b></td><td><b>栈道 + 溪边</b></td><td><b>本趟的主场</b>：走<b>短线，重点是玩水不是走完全程</b>。踩水、捞小鱼、溪边坐下喝茶 —— <b>娃挪不动脚就让他玩</b></td></tr>
+          <tr><td class="mono">12:00–13:30</td><td>沿线农家院</td><td><b>虹鳟鱼午饭</b>（烤虹鳟 / 生鱼片）+ 柴鸡蛋、贴饼子、山野菜。推荐 <b>鱼师傅</b>（老字号）、<b>山野居</b></td></tr>
+          <tr><td class="mono">14:00</td><td><b>山吧前台</b></td><td><b>办入住</b>（长园村 318 号）。放行李，<b>娃午睡</b></td></tr>
+          <tr><td class="mono">15:30–18:00</td><td>山吧园区</td><td><b>泡溪水</b>（园区有溪流穿过）· <b>手捞虹鳟鱼</b> · 木屋露台发呆</td></tr>
+          <tr><td class="mono">18:00–20:00</td><td>山吧餐厅</td><td>晚餐（农家饭 / 烧烤）</td></tr>
+          <tr><td class="mono">20:00–21:00</td><td>溪边 / 露台</td><td><b>中秋赏月</b>（9/25 是农历八月十五）—— 云厚就回木屋</td></tr>
+          <tr><td class="mono">21:30</td><td>木屋</td><td>早睡。<b>次日不赶早</b></td></tr>
         </tbody>
       </table>
     </div>
   </div>
 
   <div class="ok">
-    <p><b>睡眠账</b>：前一晚 22:30 睡 → 05:45 起 = <b>7 小时 15 分</b>，够。当天 21:30 睡 → 次日 07:30 起 = <b>10 小时</b>，把前一天欠的补回来。</p>
+    <p><b>睡眠账</b>：前一晚 22:30 睡 → 05:45 起 = <b>7 小时 15 分</b>，够。当天 21:30 睡 → 次日自然醒 = <b>把债还掉</b>。</p>
+  </div>
+
+  <div class="note">
+    <p><b>如果堵车晚了</b>：栈道可以整体后移，但<b>别压缩晚饭和赏月</b>——晚上的山吧才是这趟的重点。实在晚了就把栈道砍成"溪边玩 1 小时"。</p>
   </div>
 </section>
 
 <!-- ============ 05 周六 ============ -->
 <section id="day2">
-  <h2><span class="n">05</span>周六 9/26 · 雨天室内日</h2>
-  <p class="sub">多云转小雨 15–25℃ · <b>全在园区，零驾驶</b> —— 雨天开车是带娃最大的风险源，直接砍掉</p>
+  <h2><span class="n">05</span>周六 9/26 · 慢悠悠返程</h2>
+  <p class="sub">怀柔多云转小雨 <b>13–25℃</b> · 不挪车，雨大就退回木屋</p>
 
   <div class="card tight">
     <div class="tbl-wrap">
       <table>
         <thead><tr><th style="width:22%">时间</th><th style="width:26%">在哪</th><th>做什么</th></tr></thead>
         <tbody>
-          <tr><td class="mono">07:30–09:00</td><td>园区</td><td>自然醒 + 早餐（住宿含早餐）</td></tr>
-          <tr><td class="mono">09:00–11:30</td><td>园区室内</td><td><b>昆虫博物馆 / 手作工坊（陶艺、扎染）/ 海洋球池</b> —— 先确认雨天是否全开</td></tr>
-          <tr><td class="mono">11:30–13:00</td><td>园区</td><td>午餐 + 午睡缓冲</td></tr>
-          <tr class="total"><td class="mono">13:00–16:00</td><td>园区室内</td><td>继续室内项目 —— <b>雨一停就立刻上 180° 平台补拍</b>（雨后出片最好）</td></tr>
-          <tr><td class="mono">16:00–17:00</td><td>房间 / 园区</td><td>休整</td></tr>
-          <tr><td class="mono">17:00–19:30</td><td>园区餐厅</td><td>晚餐（17:00–20:00 时段）</td></tr>
-          <tr><td class="mono">19:30–</td><td>房间</td><td>早睡，次日要退房赶路</td></tr>
+          <tr><td class="mono">07:30–09:00</td><td>山吧</td><td>自然醒 + 早餐</td></tr>
+          <tr><td class="mono">09:00–11:00</td><td>山吧园区</td><td>雨小 → <b>接着泡溪水</b>；雨大 → <b>退回木屋 / 咖啡厅 / 茶室</b>（不挪车）</td></tr>
+          <tr><td class="mono">11:00</td><td>前台</td><td><b>退房</b>（具体时限待核实）</td></tr>
+          <tr><td class="mono">12:00–13:00</td><td>山下 / 沿途</td><td>午饭</td></tr>
+          <tr class="total"><td class="mono"><b>13:00 前</b></td><td>出发</td><td><b>上京承高速返程</b> —— 避开午后返城高峰，也给周日最高峰留足余量</td></tr>
+          <tr><td class="mono">14:30–15:00</td><td>家</td><td>到家。下午留出来收拾和回血</td></tr>
         </tbody>
       </table>
     </div>
-  </div>
-
-  <div class="note">
-    <p><b>这一天的原则</b>：<b>零驾驶</b>。雨天带娃开车是最大的风险源，直接砍掉；蜜蜂大世界（太师屯镇）降级为"雨停且娃状态好才去"的可选项。</p>
   </div>
 
   <div class="warn">
-    <p><b>雨天最可能翻车的三件事</b></p>
-    <p>① 室外蹦床/攀爬/皮划艇/ATV 遇雨关闭，到了才发现园区内没得玩 —— <b>提前打电话问</b>；<br>
-    ② 雨停的空窗期没抓住 —— 雨后出片最好，<b>一停就上 180° 平台补拍</b>；<br>
-    ③ 娃状态不好还硬加蜜蜂大世界 —— <b>砍项目不加项目</b>。</p>
+    <p><b>雨天最可能翻车的两件事</b></p>
+    <p>① <b>雨天硬下溪</b> —— 沟谷雨后水涨得快，石头滑。<b>雨一变大就上岸</b>，别贪。<br>
+    ② <b>拖到下午才走</b> —— 撞上返城高峰，回程时间翻倍。13:00 是硬线。</p>
   </div>
 </section>
 
-<!-- ============ 06 周日 ============ -->
-<section id="day3">
-  <h2><span class="n">06</span>周日 9/27 · 返程日</h2>
-  <p class="sub">小雨转阴 13–23℃ · 返城高峰 13:00–20:00，<b>必须上午走</b></p>
-
-  <div class="card tight">
-    <div class="tbl-wrap">
-      <table>
-        <thead><tr><th style="width:22%">时间</th><th style="width:26%">在哪</th><th>做什么</th></tr></thead>
-        <tbody>
-          <tr><td class="mono">07:30–09:00</td><td>园区</td><td>早餐、收拾行李</td></tr>
-          <tr><td class="mono">09:00–10:00</td><td>园区</td><td>园区内散步 / 室内项目消磨时间（雨天不排远点）</td></tr>
-          <tr><td class="mono">10:00</td><td>前台</td><td><b>退房</b>（截止 12:00，早走不被动）</td></tr>
-          <tr class="total"><td class="mono"><b>10:00–11:00</b></td><td>出发</td><td><b>上京承高速返程</b> —— 务必赶在 13:00 返城高峰前</td></tr>
-          <tr><td class="mono">11:30</td><td>服务区</td><td>中途歇一次</td></tr>
-          <tr><td class="mono">12:30–13:00</td><td>家</td><td>到家。下午留出来收拾和回血</td></tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-
-  <div class="note">
-    <p><b>两个"顺路但别贪"的可选站</b>（都在回程方向上）：</p>
-    <p><b>红螺寺</b>（怀柔，京承返程线上）—— 雨天山里清净、适合走走拍拍，但登顶台阶多，<b>只在 09:00 前就出门、且天气转好时加</b>。<br>
-    <b>张裕爱斐堡</b>（密云巨各庄镇，<b>京承高速第 17 出口左转 300 米</b>，开放 08:00–18:00）—— 半室内（城堡 + 地下酒窖），但偏成人向。门票 50–80 元口径不一。</p>
-    <p><b>两者都别误了 10:00–11:00 上高速 —— 宁可不停。</b></p>
-  </div>
-</section>
-
-<!-- ============ 07 看水库 ============ -->
+<!-- ============ 06 栈道玩水 ============ -->
 <section id="water">
-  <h2><span class="n">07</span>看水库：能看什么、绝对不能碰什么</h2>
-  <p class="sub">密云水库是北京重要的饮用水源地 —— 看它是一回事，进它是另一回事。</p>
-
-  <div class="warn">
-    <p><b>红线先说</b>：密云水库是重要地表饮用水水源地、<b>一级保护区</b>，<b>库区禁止游客进入</b>；翻护栏、下到一级保护水域是会被执法的。拍不到照片不值得冒这个险。</p>
-    <p>南侧的溪翁庄、石城、穆家峪一线地势平缓、又贴近公路，是历史上最容易被"顺脚进去"的地方——<b>正因如此才更要守住</b>。</p>
-  </div>
+  <h2><span class="n">06</span>神堂峪栈道 · 带娃怎么玩</h2>
+  <p class="sub">免费 · 约 7.5 km · 沿雁栖河 · 北京沟谷内最长的山水木栈道</p>
 
   <div class="card">
-    <h3 style="margin-top:0">带娃可执行的观景点（都在水库南线，车能到）</h3>
+    <h3 style="margin-top:0">先选走法：带娃走短线，别订全程目标</h3>
     <div class="tbl-wrap">
       <table>
-        <thead><tr><th>观景点</th><th>位置</th><th>带娃友好</th><th>本次怎么用</th></tr></thead>
+        <thead><tr><th>走法</th><th>长度 / 时间</th><th>带娃</th><th>怎么用</th></tr></thead>
         <tbody>
-          <tr class="total"><td><b>尖岩栈道（北山木栈道）</b></td><td>溪翁庄镇尖岩村北山</td><td>★★★ 坡缓、全程木栈道、登顶约 1h</td><td><b>周五上午，山脊俯瞰水库</b>（1.86 km，5 个观景平台）</td></tr>
-          <tr class="total"><td><b>日光山谷 180° 无遮挡平台</b></td><td>园区内（穆家峪）</td><td>★★★ 不用走路</td><td><b>周五下午 + 日落 + 中秋赏月</b></td></tr>
-          <tr><td><b>溪翁庄大坝外围</b></td><td>南线西端</td><td>★★★ 车到即看</td><td>周五午饭后顺路打卡（只看外围）</td></tr>
-          <tr><td>水库北观景台（琉辛路）</td><td>水库北岸</td><td>★★ 需绕北线</td><td><b>本次不排</b></td></tr>
-          <tr><td>密关路观库台 / 白河大桥</td><td>西线 / 北岸</td><td>★★</td><td><b>本次不排</b></td></tr>
-          <tr><td>大石山森林公园</td><td>北岸石马峪村</td><td>★ 4.6 km 步道</td><td><b>本次不排</b>（约 30 分钟登顶看全景，但雨天湿滑）</td></tr>
+          <tr class="total"><td><b>短线（推荐）</b></td><td>约 3.5 km</td><td>★★★ 适合遛娃</td><td><b>走一段就停下来玩水</b>，原路返回也完全可以</td></tr>
+          <tr><td>长线</td><td>约 7.5 km / 4–5 小时</td><td>★★ 娃体力吃不消</td><td>不带娃或者娃特别能走时才考虑</td></tr>
+          <tr><td>神堂峪景区（收费）</td><td>门票 <b>35 元/人</b></td><td>—</td><td><b>可以不去</b>：免费栈道景色相似</td></tr>
         </tbody>
       </table>
     </div>
   </div>
 
   <div class="ok">
-    <p><b>为什么不用绕北线</b>：北岸的观景台和白河大桥都在水库另一侧，从日光山谷绕过去是盘山路的远距离车程；三天里只有一天好天气，<b>把时间花在南线不折腾，是更划算的选择</b>。</p>
+    <p><b>真实体验（来自 2026-09 的实走游记）</b>："<b>刚进景区没走多远，孩子看见河边有水就挪不动脚了</b>"——别把"走完栈道"当目标，<b>能找个阴凉地儿坐着看孩子玩水，就是最好的安排</b>。</p>
+  </div>
+
+  <div class="card tight">
+    <h3 style="margin-top:0">导航与停车</h3>
+    <ul class="clean">
+      <li><b>栈道起点</b>：导航「范崎路川谷卡丁车西 40 米」或「神堂峪栈道-神堂柳堤」</li>
+      <li><b>专门玩水</b>：导航「<b>不夜谷停车场</b>」（这是条捷径，直接到溪边）</li>
+      <li><b>停车</b>：① 栈道起点停车场 <b>20 元/天</b> ② 神堂峪村停车场 <b>免费</b> ③ 沿途农家院（消费可免费停）</li>
+      <li><b>时间</b>：周末<b>早 9 点前到</b>，之后车位就紧张了</li>
+      <li><b>吃</b>：沿线农家乐招牌是<b>虹鳟鱼</b>（烤制 / 生鱼片）、柴鸡蛋、贴饼子、山野菜</li>
+    </ul>
+  </div>
+
+  <div class="warn">
+    <p><b>玩水安全四条</b></p>
+    <p>① 穿<b>防滑溯溪鞋</b>，溪石很滑；② <b>全程盯人</b>，别让娃单独下水；③ <b>玩水分段</b>，别等体力耗尽才收场；④ <b>雨一变大就上岸</b> —— 沟谷涨水快。</p>
   </div>
 </section>
 
-<!-- ============ 08 预算 ============ -->
+<!-- ============ 07 预算 ============ -->
 <section id="money">
-  <h2><span class="n">08</span>预算</h2>
-  <p class="sub">按<b>一家三口</b>估算（娃按 1.2 米以下免票）· 口径：<b>家庭自付总额</b>（无报销）。</p>
+  <h2><span class="n">07</span>预算</h2>
+  <p class="sub">按<b>一家三口</b>估算 · 口径：<b>家庭自付总额</b>（房已订，实付见订单）。</p>
 
   <div class="card tight">
     <div class="tbl-wrap">
       <table>
         <thead><tr><th>项</th><th>算法</th><th class="num">金额</th></tr></thead>
         <tbody>
-          <tr><td>高速过路费</td><td>约 55 元/单程 × 2（中秋高速不免费）</td><td class="num mono">¥110</td></tr>
-          <tr><td>油费</td><td>往返约 160 km，按 8L/100km、7.5 元/L</td><td class="num mono">约 ¥100</td></tr>
-          <tr class="total"><td><b>住宿</b></td><td><b>458–858 元/晚 × 2 晚（宣称含早晚餐及门票，待核）</b></td><td class="num mono">¥916 – ¥1,716</td></tr>
-          <tr><td>午餐</td><td>园区内 1 顿 + 渔街全鱼宴 1 顿</td><td class="num mono">约 ¥500</td></tr>
-          <tr><td>门票（若住客不含）</td><td>按 88 元/成人 × 2，娃免票</td><td class="num mono">¥0 – ¥176 / 天</td></tr>
-          <tr><td>蜜蜂大世界（若去）</td><td>亲子 1 大 1 小套票 226–256</td><td class="num mono">¥226 – ¥256</td></tr>
-          <tr><td>园内付费项</td><td>摆渡车往返约 50/人 · 直升机 398 元起</td><td class="num">按需，不计入</td></tr>
-          <tr class="total"><td>合计（不含付费项）</td><td>—</td><td class="num mono">约 ¥1,600 – ¥2,800</td></tr>
+          <tr><td>高速</td><td>约 19 元/单程（ETC）× 2</td><td class="num mono">约 ¥38</td></tr>
+          <tr><td>油费</td><td>往返约 140 km，按 8L/100km、7.5 元/L</td><td class="num mono">约 ¥85</td></tr>
+          <tr><td>停车</td><td>栈道起点 20 元/天</td><td class="num mono">¥20</td></tr>
+          <tr class="total"><td><b>住宿</b></td><td><b>已订阁楼房</b>（对照价 400+ 起，全店区间 400–1,280）</td><td class="num mono">¥400 – ¥1,200</td></tr>
+          <tr><td>餐饮</td><td>虹鳟鱼午餐 150–250 + 山吧晚餐 200–300</td><td class="num mono">约 ¥350 – ¥550</td></tr>
+          <tr><td>神堂峪景区（可选）</td><td>35 元/人 · <b>免费栈道景色相似，可不进</b></td><td class="num mono">¥0 – ¥70</td></tr>
+          <tr class="total"><td>合计</td><td>—</td><td class="num mono">约 ¥900 – ¥2,000</td></tr>
         </tbody>
       </table>
     </div>
   </div>
 
   <div class="note">
-    <p><b>省钱的关键点</b>：园区住宿"含早晚餐及门票"这一条如果是真的，<b>两晚房费基本覆盖了全部必要开销</b>（剩下只有过路费 + 油费 + 两顿午餐）。</p>
-    <p>所以<b>核实房型套餐内容，比砍门票重要得多</b>。</p>
+    <p><b>性价比判断</b>：一天下来最值钱的是<b>溪水 + 山</b>，这两项基本零成本（栈道免费、山吧园区溪流随便玩）。贵的是那间木屋，而它买的是"<b>推窗见溪流</b>"和"<b>不用赶路</b>"。</p>
   </div>
 </section>
 
-<!-- ============ 09 待核实 ============ -->
+<!-- ============ 08 待核实 ============ -->
 <section id="check">
-  <h2><span class="n">09</span>待核实（电话打完再出发）</h2>
-  <p class="sub">下面每一条都是网上说法互相打架、或者我没找到权威来源的项。<b>不要按本页数字直接出发。</b></p>
+  <h2><span class="n">08</span>还需核实</h2>
+  <p class="sub"><b>✅ 已办</b>：订房（山吧 · 阁楼房 · 9/25 入住）· 日期确认（9/25–9/26）。剩下这几项。</p>
 
   <div class="card">
     <div class="tbl-wrap">
       <table>
-        <thead><tr><th style="width:26%">对象</th><th style="width:22%">电话</th><th>要问清什么</th></tr></thead>
+        <thead><tr><th style="width:26%">对象</th><th style="width:22%">联系方式</th><th>要问清什么</th></tr></thead>
         <tbody>
           <tr>
-            <td><b>日光山谷</b></td>
-            <td class="tel">4006-778-668<br>400-6118010</td>
-            <td><b>① 门票到底多少</b>——网上有 30 元 / 40–60 元 / 88 元三个数字，是"门票"还是"入谷通行证"？中秋涨价吗？<br>
-                <b>② 还有房吗</b>——9/25–9/26 连住 2 晚，能否加床，退改规则<br>
-                <b>③ 房费含什么</b>——是否含早晚餐及门票<br>
-                <b>④ 娃怎么免票</b>——1.2 米以下 还是 12 岁以下<br>
-                <b>⑤ 雨天项目开不开</b>——室外蹦床/攀爬/皮划艇/ATV/篝火/星空观测<br>
-                <b>⑥ 付费项清单</b>——摆渡车、亲子乐园、直升机哪些含、哪些另付</td>
+            <td><b>山吧</b></td>
+            <td class="tel">(010) 61627396<br>公众号「山吧」</td>
+            <td><b>① 入住 / 退房的具体时刻</b>——决定 D1 上午怎么排、D2 几点能走<br>
+                <b>② 是否含早餐</b>、几点开<br>
+                <b>③ 阁楼房能否遮光、能否加床</b>（带娃关键）<br>
+                <b>④ 园区溪水深浅、娃能否下水、有无救生衣</b></td>
           </tr>
           <tr>
-            <td><b>尖岩村北山木栈道</b><br><span style="color:var(--ink-3);font-size:13px">（D1 上午的步道项）</span></td>
-            <td>密云文旅<br>/ 官方号</td>
-            <td><b>① 是否收费</b> —— 多数近期信息说免费（停车也免费），也有"门票 20 元、60 岁以上免费"的说法<br>
-                <b>② 入口导航点核准</b> —— "sanfo hood 印象营地" / "印象山里" / "密云印象云溪民宿集群" 三个名字<br>
-                <b>③ 雨天是否封闭</b> · 有无开放时间限制 · 停车场与卫生间是否可用</td>
+            <td><b>神堂峪栈道</b></td>
+            <td>怀柔文旅 /<br>现场公告</td>
+            <td><b>雨天是否封闭或临时管控</b>（沟谷沿河栈道，汛期常有）—— 9/26 有小雨，这条要问</td>
           </tr>
           <tr>
-            <td><b>金鼎鱼香生态渔村</b></td>
-            <td class="tel">010-69017633</td>
-            <td><b>周五 11:30</b> 能否订位（<b>已从周六改到 D1</b>）· 有无宝宝椅 · 停车 · 胖头鱼当天价（参考约 36 元/斤）</td>
-          </tr>
-          <tr>
-            <td><b>蜜蜂大世界</b></td>
-            <td class="tel">010-69039276<br>010-69038812</td>
-            <td>票价档位（成人 60 元起 / 30 元两说）· 是否需预约（公众号「京纯蜜蜂大世界」）· 从日光山谷过去车程</td>
-          </tr>
-          <tr>
-            <td><b>张裕爱斐堡</b><br><span style="color:var(--ink-3);font-size:13px">（仅在考虑加站时）</span></td>
+            <td><b>确认本店位置</b></td>
             <td>—</td>
-            <td>门票 50–80 元两说 · 开放 08:00–18:00（17:00 停止入园）是否照常</td>
+            <td>订单确认是 <b>雁栖镇长园村 318 号</b>，不是桥梓镇的分店</td>
           </tr>
           <tr>
-            <td><b>天气</b></td>
+            <td><b>天气复核</b></td>
             <td>—</td>
-            <td>出发前一天（9/24）再查一次中国天气网密云页 —— <b>雨的时间窗一变，D2 / D3 就跟着调</b></td>
+            <td>出发前一天（9/24）再抓一次<b>怀柔页</b>——雨的时间窗一变，D2 就跟着调</td>
           </tr>
         </tbody>
       </table>
     </div>
   </div>
-
-  <div class="card tight">
-    <h3 style="margin-top:0">可打电话的号码汇总</h3>
-    <ul class="clean">
-      <li>日光山谷 <span class="tel">4006-778-668</span> / <span class="tel">400-6118010</span></li>
-      <li>金鼎鱼香生态渔村 <span class="tel">010-69017633</span></li>
-      <li>蜜蜂大世界 <span class="tel">010-69039276</span> / <span class="tel">010-69038812</span></li>
-    </ul>
-    <p style="font-size:13px;color:var(--ink-3);margin-bottom:0">号码来自公开信息，且部分存在多个来源不一致的情况 —— 拨不通就换一个，或走官方公众号。</p>
-  </div>
 </section>
 
-<!-- ============ 10 风险 ============ -->
+<!-- ============ 09 风险 ============ -->
 <section id="risk">
-  <h2><span class="n">10</span>风险</h2>
+  <h2><span class="n">09</span>风险</h2>
 
   <div class="warn">
-    <p><b>1. 房没了</b></p>
-    <p>离出发只剩 3 天、共 76 间房、中秋旺季。官方出行提示已明确"节假日日光山谷等热门酒店民宿非常紧俏"。<b>今天不订，可能连园区外的好民宿也没有了。</b>Plan B：立刻找水库南线（溪翁庄 / 石马峪）或穆家峪的民宿备选，不要拖到当天。</p>
+    <p><b>1. 阁楼房的睡眠环境</b>（订房后新出现的头号风险）</p>
+    <p>房型解析原话：阁楼房偏"星空控"，"<b>亲子的话就看孩子睡眠习惯</b>"。① <b>遮光</b>——顶部采光容易天亮被叫醒；② <b>结构安全</b>——楼梯、栏杆要有人盯。<b>打个电话就能问掉。</b></p>
   </div>
 
   <div class="warn">
-    <p><b>2. 雨天项目全关</b></p>
-    <p>室外蹦床、攀爬、皮划艇、ATV、篝火、星空观测遇雨可能停。到了才发现园区内没得玩，周六就会空掉。<b>电话里问清，并准备好"回房间休息 + 园区餐饮"这个兜底方案。</b></p>
+    <p><b>2. 设施低于预期</b></p>
+    <p>点评明确"设施 3.7 / 卫生 3.9"，有住客说 800 元房"有点简陋"。<b>期望放在环境和溪水，不是房间硬件。</b></p>
   </div>
 
   <div class="warn">
-    <p><b>3. 06:30 没出门</b></p>
-    <p>出城高峰是 <b>07:00–12:00</b>，京承高速的顺义段与密云段是拥堵高发段。晚一小时出门可能多堵一小时，<b>第一天唯一的户外窗口就被耗掉了</b>。堵上可绕 <b>京密路 → 顺义枯柳树环岛</b>。</p>
+    <p><b>3. 带娃的真实预期</b></p>
+    <p>娃会在溪边停下玩水，"没走几步就被孩子拦住"是常态 —— <b>按短线规划，别订走完全程的目标</b>。</p>
   </div>
 
   <div class="warn">
-    <p><b>4. 周日拖到下午才走</b></p>
-    <p>返城高峰 <b>13:00–20:00</b>，撞上它回程时间可能翻倍。<b>10:00–11:00 必须上高速。</b></p>
+    <p><b>4. 山路窄 + 雨天</b></p>
+    <p>范崎路进山段"依旧狭窄，驾驶需谨慎"，雨天更要慢。9/26 返程下雨，留足时间。</p>
   </div>
 
   <div class="warn">
-    <p><b>5. 库区红线</b></p>
-    <p>不翻护栏、不进一级保护水域 —— 这不是"能不能看见"的问题，是合规问题。历史上闯库区是被执法的。</p>
+    <p><b>5. 下水安全 + 涨水</b></p>
+    <p>溪石滑、沟谷雨后涨水快。<b>防滑鞋 + 全程盯人 + 雨大就上岸</b>。</p>
+  </div>
+
+  <div class="warn">
+    <p><b>6. 两处"山吧"别搞混</b></p>
+    <p>本店在<b>雁栖不夜谷</b>，分店在<b>桥梓镇</b>（北石槽出口）。导航请输「山吧」并核对地址是长园村 318 号。</p>
   </div>
 </section>
 
-<!-- ============ 11 带什么 ============ -->
+<!-- ============ 10 带什么 ============ -->
 <section id="pack">
-  <h2><span class="n">11</span>带什么</h2>
+  <h2><span class="n">10</span>带什么</h2>
   <div class="grid2">
     <div class="card">
-      <h3 style="margin-top:0">带娃必带</h3>
+      <h3 style="margin-top:0">玩水 / 带娃</h3>
       <ul class="clean check">
-        <li><b>儿童安全座椅</b> —— 高速 1.5 小时，必须有</li>
-        <li><b>雨具两套</b> + 防水鞋（周六周日都有雨，湿一套有替换）</li>
-        <li>换洗衣物按"两天湿身"准备</li>
-        <li>娃的常用药：退烧、肠胃、防蚊、创可贴</li>
+        <li><b>儿童安全座椅</b> —— 高速约 1.5 小时</li>
+        <li><b>防滑溯溪鞋</b> —— 溪石很滑，比雨靴实用</li>
+        <li>娃的<b>换洗衣物两套</b>（玩水必湿）</li>
+        <li>速干毛巾、防水袋（装手机）</li>
+        <li>防蚊液、防晒霜</li>
+        <li>娃的常用药（退烧、肠胃、创可贴）</li>
         <li>保温杯、零食、湿巾</li>
-        <li>娃的枕头 / 安抚物（住陌生房间有用）</li>
-        <li><b>身份证 / 户口本</b>（住宿登记、买票核验）</li>
-        <li>充电宝 + 车充</li>
-        <li>现金少许（个别老店扫码不稳）</li>
+        <li>娃的枕头 / 安抚物（住陌生环境有用）</li>
       </ul>
     </div>
     <div class="card">
       <h3 style="margin-top:0">成人 & 车上</h3>
       <ul class="clean">
-        <li>薄外套 —— 早晚 13–16°C、中午 23–27°C，周日降到 13°C</li>
-        <li>运动鞋 / 防滑鞋 —— 雨天地面滑</li>
-        <li>手机装好导航与各景区预约小程序</li>
-        <li>提前查胎压、油量，出发前加满油</li>
-        <li>纸巾 / 垃圾袋 —— 密云是生态涵养区，<b>垃圾全部带走</b></li>
+        <li><b>薄外套</b> —— 早晚 13–17°C、白天 23–26°C，周六温差 12 度</li>
+        <li>身份证（住宿登记）</li>
+        <li>充电宝 + 车充</li>
+        <li>现金少许（个别老店扫码不稳）</li>
+        <li>垃圾袋 —— 山水地带，<b>垃圾全部带走</b></li>
       </ul>
       <h3>三个易忘项</h3>
       <ul class="clean box">
-        <li>确认雨天园区项目开放情况</li>
-        <li>渔街订位凭证 / 电话存到手机</li>
-        <li>出发前一天再看一次天气</li>
+        <li>给山吧打电话问那四件事</li>
+        <li>确认订单地址是长园村 318 号（不是桥梓镇）</li>
+        <li>出发前一天再看一次怀柔天气</li>
       </ul>
     </div>
   </div>
 </section>
 
-<!-- ============ 12 快捷入口 ============ -->
+<!-- ============ 11 快捷入口 ============ -->
 <section id="links">
-  <h2><span class="n">12</span>快捷入口</h2>
+  <h2><span class="n">11</span>快捷入口</h2>
   <p class="sub">小程序需在微信内搜索，此处给网页版入口。</p>
   <div class="links">
-    <a class="link" href="http://www.weather.com.cn/weather/101011300.shtml" target="_blank" rel="noopener">
-      <div class="t">中国天气网 · 密云</div>
-      <div class="d">出发前一天（9/24）再核对一次</div>
+    <a class="link" href="http://www.weather.com.cn/weather/101010500.shtml" target="_blank" rel="noopener">
+      <div class="t">中国天气网 · 怀柔</div>
+      <div class="d">出发前一天再核对一次</div>
       <div class="u">weather.com.cn</div>
+    </a>
+    <a class="link" href="https://map.baidu.com/search/%E7%A5%9E%E5%A0%82%E5%B3%AA%E6%A0%88%E9%81%93" target="_blank" rel="noopener">
+      <div class="t">导航 · 神堂峪栈道</div>
+      <div class="d">起点：「范崎路川谷卡丁车西 40 米」</div>
+      <div class="u">map.baidu.com</div>
+    </a>
+    <a class="link" href="https://map.baidu.com/search/%E5%B1%B1%E5%90%A7%E5%BA%A6%E5%81%87%E6%9D%91" target="_blank" rel="noopener">
+      <div class="t">导航 · 山吧度假村</div>
+      <div class="d">雁栖镇长园村 318 号（核对别走成桥梓镇分店）</div>
+      <div class="u">map.baidu.com</div>
+    </a>
+    <a class="link" href="https://map.baidu.com/search/%E4%B8%8D%E5%A4%9C%E8%B0%B7%E5%81%9C%E8%BD%A6%E5%9C%BA" target="_blank" rel="noopener">
+      <div class="t">导航 · 不夜谷停车场</div>
+      <div class="d">带娃单纯想玩水的捷径</div>
+      <div class="u">map.baidu.com</div>
     </a>
     <a class="link" href="https://www.nmc.cn/" target="_blank" rel="noopener">
       <div class="t">中央气象台</div>
-      <div class="d">看降水雷达，判断当天走哪个 Plan B</div>
+      <div class="d">看降水雷达，判断当天走落雨还是泡水</div>
       <div class="u">nmc.cn</div>
-    </a>
-    <a class="link" href="https://www.gov.cn/" target="_blank" rel="noopener">
-      <div class="t">2026 年节假日安排</div>
-      <div class="d">中秋 9/25–9/27 共 3 天，不调休；高速不免费</div>
-      <div class="u">gov.cn</div>
-    </a>
-    <a class="link" href="https://www.baidu.com/s?wd=%E5%AF%86%E4%BA%91%E6%B0%B4%E5%BA%93%E6%B0%B4%E6%BA%90%E4%BF%9D%E6%8A%A4%E6%9D%A1%E4%BE%8B" target="_blank" rel="noopener">
-      <div class="t">《密云水库水源保护条例》</div>
-      <div class="d">库区禁入的法律依据 —— 出发前读一眼</div>
-      <div class="u">公开法规</div>
-    </a>
-    <a class="link" href="https://www.baidu.com/s?wd=%E5%AF%86%E4%BA%91%E4%BA%A4%E8%AD%A6%20%E5%81%87%E6%9C%9F%E5%87%BA%E8%A1%8C%E9%AB%98%E5%B3%B0%E6%8F%90%E7%A4%BA" target="_blank" rel="noopener">
-      <div class="t">北京交警 · 假期出行提示</div>
-      <div class="d">出城 07:00–12:00 / 返城 13:00–20:00</div>
-      <div class="u">出行口径</div>
-    </a>
-    <a class="link" href="https://www.baidu.com/s?wd=%E6%97%A5%E5%85%89%E5%B1%B1%E8%B0%B7%20%E5%AF%86%E4%BA%91" target="_blank" rel="noopener">
-      <div class="t">日光山谷 · 官方信息</div>
-      <div class="d">门票与房型以官方公众号为准</div>
-      <div class="u">搜「日光山谷」公众号</div>
     </a>
   </div>
 
   <div class="note" style="margin-top:20px">
     <p><b>微信里搜这些名字</b>：</p>
-    <p><b>日光山谷</b> —— 门票与住宿预订 · <b>京纯蜜蜂大世界</b> —— 蜜蜂大世界预约 · <b>密云文旅</b> —— 官方出行提示与活动</p>
+    <p><b>山吧</b> —— 公众号，房型与订单信息 · <b>怀柔文旅</b> —— 栈道管控与当地提示</p>
   </div>
 </section>
 
 <footer>
-  <p><b>出发前请再核对</b>：景区票价、开放时间与房费可能调整，本方案基于 <b>2026-09-22</b> 的公开信息整理。第二列的"待核实"项请逐条打电话确认。</p>
-  <p>天气数据：<a href="http://www.weather.com.cn/weather/101011300.shtml" target="_blank" rel="noopener">中国天气网 · 密云</a>（9/22 抓取）· 假期：国务院办公厅《关于 2026 年部分节假日安排的通知》· 水库规则：《密云水库水源保护条例》相关公开报道 · 交通：北京交警假期出行提示口径 · 尖岩栈道：百度百科「尖岩栈道」+ 2025–2026 实走攻略 · 景区与餐饮：各官方/商户公开信息</p>
+  <p><b>出发前请再核对</b>：房价、房型、栈道管控与天气可能调整，本页基于 <b>2026-09-22</b> 的公开信息整理，日期已按实际预订（9/25 入住 / 9/26 退房）定稿。</p>
+  <p>数据来源：<a href="http://www.weather.com.cn/weather/101010500.shtml" target="_blank" rel="noopener">中国天气网 · 怀柔</a>（9/22 抓取）· 山吧：商户公开信息页（地址/电话/设施/评分）+ 2023–2026 多篇游记与房型解析 · 神堂峪栈道：百度百科 + 2025–2026 实走攻略 · 路线与停车：多篇路线攻略交叉</p>
 </footer>
 
 </main>
@@ -1039,12 +935,9 @@ footer{border-top:1px solid var(--line);padding-top:24px;margin-top:56px;font-si
   var links = Array.prototype.slice.call(document.querySelectorAll('#sideNav a'));
   var secs = links.map(function(a){ return document.querySelector(a.getAttribute('href')); });
 
-  // 回到顶部：滚动超过 400px 才出现
   function onScroll(){
     var y = window.pageYOffset || document.documentElement.scrollTop;
     btn.classList.toggle('show', y > 400);
-
-    // 左侧导航当前章节高亮
     var idx = 0;
     for (var i = 0; i < secs.length; i++){
       if (secs[i] && secs[i].getBoundingClientRect().top <= 140) idx = i;
